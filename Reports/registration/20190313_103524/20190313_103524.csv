@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+registration,Firefox 64.0,,2019-03-13 10:35:31,2019-03-13 10:36:29,58.039s,FAILED
+,,,,,,
+Test Cases/cashregistration,Firefox 64.0,,2019-03-13 10:35:31,2019-03-13 10:36:27,55.681s,FAILED
+"openBrowser("""")",Firefox 64.0,,2019-03-13 10:35:32,2019-03-13 10:35:43,11.278s,PASSED
+"navigateToUrl(""http://localhost:8090/eclinic/"")",Firefox 64.0,,2019-03-13 10:35:43,2019-03-13 10:35:45,2.436s,PASSED
+delay(5),Firefox 64.0,,2019-03-13 10:35:45,2019-03-13 10:35:50,5.045s,PASSED
+"setText(findTestObject(""Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_name""), username)",Firefox 64.0,,2019-03-13 10:35:50,2019-03-13 10:35:51,0.281s,PASSED
+"setText(findTestObject(""Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_password""), password)",Firefox 64.0,,2019-03-13 10:35:51,2019-03-13 10:35:51,0.200s,PASSED
+"click(findTestObject(""Object Repository/cashregister/Page_eClinic/a_Log In""))",Firefox 64.0,,2019-03-13 10:35:51,2019-03-13 10:35:56,5.262s,PASSED
+"click(findTestObject(""Object Repository/cashregister/Page_eClinicUserAdministrator/span_Damas Medical Center""))",Firefox 64.0,,2019-03-13 10:35:56,2019-03-13 10:36:27,30.783s,FAILED

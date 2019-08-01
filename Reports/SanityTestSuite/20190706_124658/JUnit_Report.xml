@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SanityTestSuite" time="87" tests="2" failures="1" errors="0">
+   <testsuite name="SanityTestSuite" tests="2" failures="1" errors="0" time="87" timestamp="2019-07-06 12:47:04" hostname="DELL - DESKTOP-6QK8RF8" id="Test Suites/SanityTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\katalon\\damasproject\\Reports\\SanityTestSuite\\20190706_124658"/>
+         <property name="logFiles" value="E:\\katalon\\damasproject\\Reports\\SanityTestSuite\\20190706_124658\\execution0.log"/>
+         <property name="attachments" value="E:\\katalon\\damasproject\\Reports\\SanityTestSuite\\20190706_124658\\1562402869421.png"/>
+         <property name="hostName" value="DELL - DESKTOP-6QK8RF8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Firefox 67.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="0d815b05-7160-446d-b937-81901a6166db"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/userlogin" classname="Test Cases/userlogin" status="PASSED">
+         <system-out><![CDATA[2019-07-06 12:47:04 - [TEST_CASE][PASSED] - Test Cases/userlogin: Test Cases/userlogin
+
+2019-07-06 12:47:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-06 12:47:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-07-06 12:47:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-06 12:47:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-06 12:47:15 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8090/eclinic/"): Navigate to 'http://localhost:8090/eclinic/' successfully
+
+2019-07-06 12:47:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8090/eclinic/' successfully
+
+2019-07-06 12:47:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-06 12:47:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-06 12:47:20 - [TEST_STEP][PASSED] - setText(findTestObject("Components/logins/input_MEDAS HIS_user_name"), "Admin"): Text 'Admin' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_name'
+
+2019-07-06 12:47:20 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_name'
+
+2019-07-06 12:47:20 - [TEST_STEP][PASSED] - setText(findTestObject("Components/logins/input_MEDAS HIS_user_password"), "12345"): Text '12345' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_password'
+
+2019-07-06 12:47:20 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_password'
+
+2019-07-06 12:47:20 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/login")): Object: 'Object Repository/Components/Buttons/login' is clicked on
+
+2019-07-06 12:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/login' is clicked on
+
+2019-07-06 12:47:24 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/officeselection")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/officeselection' is clicked on
+
+2019-07-06 12:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/officeselection' is clicked on
+
+2019-07-06 12:47:24 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/selectoffice")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/selectoffice' is clicked on
+
+2019-07-06 12:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/selectoffice' is clicked on
+
+2019-07-06 12:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/go")): Object: 'Object Repository/Components/Buttons/go' is clicked on
+
+2019-07-06 12:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/go' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/cashregistration" classname="Test Cases/cashregistration" status="FAILED">
+         <failure type="FAILED" message="Test Cases/cashregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at cashregistration.run(cashregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562402822820.run(TempTestSuite1562402822820.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-06 12:47:30 - [TEST_CASE][FAILED] - Test Cases/cashregistration: Test Cases/cashregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at cashregistration.run(cashregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562402822820.run(TempTestSuite1562402822820.groovy:35)
+
+
+2019-07-06 12:47:30 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Frontdesktab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-06 12:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-06 12:47:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-06 12:47:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-06 12:47:37 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/registrationTab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-06 12:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-06 12:47:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-06 12:47:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-06 12:47:44 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-06 12:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-06 12:47:45 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-06 12:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-06 12:47:45 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-06 12:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-06 12:47:45 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-06 12:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-06 12:47:46 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/AlreadyGenerated")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-06 12:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-06 12:47:46 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/PatientName"), patientname): Text '2Auto24' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-06 12:47:46 - [MESSAGE][PASSED] - Text '2Auto24' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-06 12:47:46 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/DOB"), "11111985"): Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-06 12:47:46 - [MESSAGE][PASSED] - Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-06 12:47:46 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-06 12:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-06 12:47:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderSelected"), "Male", true): All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-06 12:47:47 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-06 12:47:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/VisaTypeSelected"), "resident", true): All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/VisaTypeSelected'  using regular expression
+
+2019-07-06 12:47:47 - [MESSAGE][PASSED] - All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/VisaTypeSelected'  using regular expression
+
+2019-07-06 12:47:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile1Ext"), "97155", true): All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile1Ext'  using regular expression
+
+2019-07-06 12:47:48 - [MESSAGE][PASSED] - All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile1Ext'  using regular expression
+
+2019-07-06 12:47:48 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/MobilenumInserted"), mobile): Text '5654800131' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MobilenumInserted'
+
+2019-07-06 12:47:48 - [MESSAGE][PASSED] - Text '5654800131' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MobilenumInserted'
+
+2019-07-06 12:47:48 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick' is clicked on
+
+2019-07-06 12:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick' is clicked on
+
+2019-07-06 12:47:48 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected' is clicked on
+
+2019-07-06 12:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected' is clicked on
+
+2019-07-06 12:47:49 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2Inserted"), "5841201214"): Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2Inserted'
+
+2019-07-06 12:47:49 - [MESSAGE][PASSED] - Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2Inserted'
+
+2019-07-06 12:47:49 - [TEST_STEP][FAILED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/CityClick")): click(findTestObject("cashregister/Page_eClinicUserAdministrator/CityClick")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at cashregistration.run(cashregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562402822820.run(TempTestSuite1562402822820.groovy:35)
+
+
+2019-07-06 12:47:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick'
+[[ATTACHMENT|E:\\katalon\\damasproject\\Reports\\SanityTestSuite\\20190706_124658\\1562402869421.png]]
+
+2019-07-06 12:47:49 - [MESSAGE][FAILED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/CityClick")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at cashregistration.run(cashregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562402822820.run(TempTestSuite1562402822820.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-06 12:47:30 - [TEST_CASE][FAILED] - Test Cases/cashregistration: Test Cases/cashregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at cashregistration.run(cashregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562402822820.run(TempTestSuite1562402822820.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/cashregistration" classname="Test Cases/cashregistration" status="PASSED">
+         <system-out><![CDATA[2019-07-06 12:47:49 - [TEST_CASE][PASSED] - Test Cases/cashregistration: Test Cases/cashregistration
+
+2019-07-06 12:47:49 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Frontdesktab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-06 12:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-06 12:47:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-06 12:47:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-06 12:47:54 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/registrationTab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-06 12:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-06 12:47:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-06 12:48:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-06 12:48:00 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-06 12:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-06 12:48:01 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-06 12:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-06 12:48:01 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-06 12:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-06 12:48:01 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-06 12:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-06 12:48:02 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/AlreadyGenerated")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-06 12:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-06 12:48:02 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/PatientName"), patientname): Text '2Auto25' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-06 12:48:02 - [MESSAGE][PASSED] - Text '2Auto25' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-06 12:48:02 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/DOB"), "11111985"): Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-06 12:48:02 - [MESSAGE][PASSED] - Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-06 12:48:02 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-06 12:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-06 12:48:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderSelected"), "Male", true): All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-06 12:48:03 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-06 12:48:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/VisaTypeSelected"), "resident", true): All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/VisaTypeSelected'  using regular expression
+
+2019-07-06 12:48:03 - [MESSAGE][PASSED] - All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/VisaTypeSelected'  using regular expression
+
+2019-07-06 12:48:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile1Ext"), "97155", true): All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile1Ext'  using regular expression
+
+2019-07-06 12:48:04 - [MESSAGE][PASSED] - All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile1Ext'  using regular expression
+
+2019-07-06 12:48:04 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/MobilenumInserted"), mobile): Text '5654800132' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MobilenumInserted'
+
+2019-07-06 12:48:04 - [MESSAGE][PASSED] - Text '5654800132' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MobilenumInserted'
+
+2019-07-06 12:48:04 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick' is clicked on
+
+2019-07-06 12:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick' is clicked on
+
+2019-07-06 12:48:04 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected' is clicked on
+
+2019-07-06 12:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected' is clicked on
+
+2019-07-06 12:48:04 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2Inserted"), "5841201214"): Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2Inserted'
+
+2019-07-06 12:48:05 - [MESSAGE][PASSED] - Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2Inserted'
+
+2019-07-06 12:48:05 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/CityClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick' is clicked on
+
+2019-07-06 12:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick' is clicked on
+
+2019-07-06 12:48:05 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/CitySelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CitySelected' is clicked on
+
+2019-07-06 12:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CitySelected' is clicked on
+
+2019-07-06 12:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmailInserted"), "we@qq.com"): Text 'we@qq.com' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmailInserted'
+
+2019-07-06 12:48:05 - [MESSAGE][PASSED] - Text 'we@qq.com' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmailInserted'
+
+2019-07-06 12:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/FathernameInserted"), "dad"): Text 'dad' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/FathernameInserted'
+
+2019-07-06 12:48:05 - [MESSAGE][PASSED] - Text 'dad' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/FathernameInserted'
+
+2019-07-06 12:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/DesignationInserted"), "qa"): Text 'qa' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DesignationInserted'
+
+2019-07-06 12:48:05 - [MESSAGE][PASSED] - Text 'qa' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DesignationInserted'
+
+2019-07-06 12:48:05 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/SourceClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceClick' is clicked on
+
+2019-07-06 12:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceClick' is clicked on
+
+2019-07-06 12:48:06 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/SourceSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceSelected' is clicked on
+
+2019-07-06 12:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceSelected' is clicked on
+
+2019-07-06 12:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/SourceInserted"), "source tested"): Text 'source tested' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceInserted'
+
+2019-07-06 12:48:06 - [MESSAGE][PASSED] - Text 'source tested' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceInserted'
+
+2019-07-06 12:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmergencyNameInserted"), "4578124512"): Text '4578124512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNameInserted'
+
+2019-07-06 12:48:07 - [MESSAGE][PASSED] - Text '4578124512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNameInserted'
+
+2019-07-06 12:48:07 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/RelationInserted"), "fath"): Text 'fath' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RelationInserted'
+
+2019-07-06 12:48:07 - [MESSAGE][PASSED] - Text 'fath' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RelationInserted'
+
+2019-07-06 12:48:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/DepartmentSelected"), "7", false): All options with value '7' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DepartmentSelected' 
+
+2019-07-06 12:48:07 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DepartmentSelected' 
+
+2019-07-06 12:48:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-06 12:48:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-06 12:48:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/DoctorSelected"), "8", false): All options with value '8' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DoctorSelected' 
+
+2019-07-06 12:48:09 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DoctorSelected' 
+
+2019-07-06 12:48:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-06 12:48:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-06 12:48:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/NationalitySelected"), "2", false): All options with value '2' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/NationalitySelected' 
+
+2019-07-06 12:48:12 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/NationalitySelected' 
+
+2019-07-06 12:48:12 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmiratesIDInserted"), residenceid, CONTINUE_ON_FAILURE): Text '111-1111-1111111-1' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmiratesIDInserted'
+
+2019-07-06 12:48:12 - [MESSAGE][PASSED] - Text '111-1111-1111111-1' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmiratesIDInserted'
+
+2019-07-06 12:48:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/OtherIDClick"), "3", false): All options with value '3' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDClick' 
+
+2019-07-06 12:48:12 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDClick' 
+
+2019-07-06 12:48:12 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/OtherIDInserted"), "230232421"): Text '230232421' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDInserted'
+
+2019-07-06 12:48:12 - [MESSAGE][PASSED] - Text '230232421' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDInserted'
+
+2019-07-06 12:48:12 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/TelephoneClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneClick' is clicked on
+
+2019-07-06 12:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneClick' is clicked on
+
+2019-07-06 12:48:12 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/TelephoneSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneSelected' is clicked on
+
+2019-07-06 12:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneSelected' is clicked on
+
+2019-07-06 12:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/TelephoneInserted"), "231789512"): Text '231789512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneInserted'
+
+2019-07-06 12:48:13 - [MESSAGE][PASSED] - Text '231789512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneInserted'
+
+2019-07-06 12:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/PostalCodeInserted"), "235687451"): Text '235687451' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PostalCodeInserted'
+
+2019-07-06 12:48:13 - [MESSAGE][PASSED] - Text '235687451' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PostalCodeInserted'
+
+2019-07-06 12:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/MothernameInserted"), "mom"): Text 'mom' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MothernameInserted'
+
+2019-07-06 12:48:13 - [MESSAGE][PASSED] - Text 'mom' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MothernameInserted'
+
+2019-07-06 12:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmergencyNumInserted"), "125658748"): Text '125658748' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNumInserted'
+
+2019-07-06 12:48:13 - [MESSAGE][PASSED] - Text '125658748' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNumInserted'
+
+2019-07-06 12:48:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/RegistrationtypeSelected"), "Normal", false): All options with value 'Normal' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationtypeSelected' 
+
+2019-07-06 12:48:13 - [MESSAGE][PASSED] - All options with value 'Normal' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationtypeSelected' 
+
+2019-07-06 12:48:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-06 12:48:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-06 12:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/save")): Object: 'Object Repository/Components/Buttons/save' is clicked on
+
+2019-07-06 12:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/save' is clicked on
+
+2019-07-06 12:48:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-06 12:48:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-06 12:48:26 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/RegistrationlistTab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationlistTab' is clicked on
+
+2019-07-06 12:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationlistTab' is clicked on
+
+2019-07-06 12:48:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-06 12:48:30 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-06 12:47:04 - [TEST_SUITE][FAILED] - SanityTestSuite: Test Cases/cashregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at cashregistration.run(cashregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562402822820.run(TempTestSuite1562402822820.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-06 12:47:04 - [TEST_SUITE][FAILED] - SanityTestSuite: Test Cases/cashregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at cashregistration.run(cashregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562402822820.run(TempTestSuite1562402822820.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

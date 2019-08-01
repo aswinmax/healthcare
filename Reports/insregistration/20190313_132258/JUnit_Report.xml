@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="insregistration" time="31" tests="0" failures="1" errors="0">
+   <testsuite name="insregistration" tests="0" failures="1" errors="0" time="31" timestamp="2019-03-13 13:23:04" hostname="DELL - DESKTOP-6QK8RF8" id="Test Suites/insregistration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\katalon\\damasproject\\Reports\\insregistration\\20190313_132258"/>
+         <property name="logFiles" value="E:\\katalon\\damasproject\\Reports\\insregistration\\20190313_132258\\execution0.log"/>
+         <property name="attachments" value="E:\\katalon\\damasproject\\Reports\\insregistration\\20190313_132258\\1552469014211.png"/>
+         <property name="hostName" value="DELL - DESKTOP-6QK8RF8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="5fa0c90f-c3aa-49e7-b017-27e112164883"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/insregistration" classname="Test Cases/insregistration" status="FAILED">
+         <failure type="FAILED" message="Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at insregistration.run(insregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552468983424.run(TempTestSuite1552468983424.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-13 13:23:05 - [TEST_CASE][FAILED] - Test Cases/insregistration: Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at insregistration.run(insregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552468983424.run(TempTestSuite1552468983424.groovy:35)
+
+
+2019-03-13 13:23:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-13 13:23:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-13 13:23:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-13 13:23:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-13 13:23:11 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8090/eclinic/"): Navigate to 'http://localhost:8090/eclinic/' successfully
+
+2019-03-13 13:23:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8090/eclinic/' successfully
+
+2019-03-13 13:23:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-13 13:23:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-13 13:23:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_name"), username): Text 'admin' is set on object 'Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_name'
+
+2019-03-13 13:23:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_name'
+
+2019-03-13 13:23:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_password"), password): Text '12345' is set on object 'Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_password'
+
+2019-03-13 13:23:19 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_password'
+
+2019-03-13 13:23:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinic/a_Log In")): Object: 'Object Repository/cashregister/Page_eClinic/a_Log In' is clicked on
+
+2019-03-13 13:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinic/a_Log In' is clicked on
+
+2019-03-13 13:23:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Damas Medical Center")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Damas Medical Center' is clicked on
+
+2019-03-13 13:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Damas Medical Center' is clicked on
+
+2019-03-13 13:23:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/li_Damas Medical Center")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_Damas Medical Center' is clicked on
+
+2019-03-13 13:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_Damas Medical Center' is clicked on
+
+2019-03-13 13:23:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input_English_go")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_English_go' is clicked on
+
+2019-03-13 13:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_English_go' is clicked on
+
+2019-03-13 13:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Front Desk")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Front Desk' is clicked on
+
+2019-03-13 13:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Front Desk' is clicked on
+
+2019-03-13 13:23:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 13:23:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 13:23:26 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/span_Registration")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Registration' is clicked on
+
+2019-03-13 13:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Registration' is clicked on
+
+2019-03-13 13:23:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 13:23:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 13:23:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_No")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_No' is clicked on
+
+2019-03-13 13:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_No' is clicked on
+
+2019-03-13 13:23:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/li_No")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_No' is clicked on
+
+2019-03-13 13:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_No' is clicked on
+
+2019-03-13 13:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Consultation")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Consultation' is clicked on
+
+2019-03-13 13:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Consultation' is clicked on
+
+2019-03-13 13:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/li_Consultation")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_Consultation' is clicked on
+
+2019-03-13 13:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_Consultation' is clicked on
+
+2019-03-13 13:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/a_No")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/a_No' is clicked on
+
+2019-03-13 13:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/a_No' is clicked on
+
+2019-03-13 13:23:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input__patient_name"), patientname): Text '1Auto-1' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__patient_name'
+
+2019-03-13 13:23:32 - [MESSAGE][PASSED] - Text '1Auto-1' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__patient_name'
+
+2019-03-13 13:23:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input__date_of_birth"), "11111985"): Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__date_of_birth'
+
+2019-03-13 13:23:32 - [MESSAGE][PASSED] - Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__date_of_birth'
+
+2019-03-13 13:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/td_SelectMaleFemale")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/td_SelectMaleFemale' is clicked on
+
+2019-03-13 13:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/td_SelectMaleFemale' is clicked on
+
+2019-03-13 13:23:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectMaleFemale"), "Male", true): All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectMaleFemale'  using regular expression
+
+2019-03-13 13:23:32 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectMaleFemale'  using regular expression
+
+2019-03-13 13:23:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectLocalResidentVisitor"), "resident", true): All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectLocalResidentVisitor'  using regular expression
+
+2019-03-13 13:23:33 - [MESSAGE][PASSED] - All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectLocalResidentVisitor'  using regular expression
+
+2019-03-13 13:23:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/select_9715095896659"), "97155", true): All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_9715095896659'  using regular expression
+
+2019-03-13 13:23:33 - [MESSAGE][PASSED] - All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_9715095896659'  using regular expression
+
+2019-03-13 13:23:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input__mobile"), mobile): Text '5698023547' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__mobile'
+
+2019-03-13 13:23:33 - [MESSAGE][PASSED] - Text '5698023547' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__mobile'
+
+2019-03-13 13:23:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_97150")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_97150' is clicked on
+
+2019-03-13 13:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_97150' is clicked on
+
+2019-03-13 13:23:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/li_97154")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_97154' is clicked on
+
+2019-03-13 13:23:34 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_97154' is clicked on
+
+2019-03-13 13:23:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input_Mobile 2_extra_no"), "5841201214"): Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Mobile 2_extra_no'
+
+2019-03-13 13:23:34 - [MESSAGE][PASSED] - Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Mobile 2_extra_no'
+
+2019-03-13 13:23:34 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option")): click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at insregistration.run(insregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552468983424.run(TempTestSuite1552468983424.groovy:35)
+
+
+2019-03-13 13:23:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option'
+[[ATTACHMENT|E:\\katalon\\damasproject\\Reports\\insregistration\\20190313_132258\\1552469014211.png]]
+
+2019-03-13 13:23:34 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at insregistration.run(insregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552468983424.run(TempTestSuite1552468983424.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-13 13:23:05 - [TEST_CASE][FAILED] - Test Cases/insregistration: Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at insregistration.run(insregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552468983424.run(TempTestSuite1552468983424.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-13 13:23:04 - [TEST_SUITE][FAILED] - insregistration: Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at insregistration.run(insregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552468983424.run(TempTestSuite1552468983424.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-13 13:23:04 - [TEST_SUITE][FAILED] - insregistration: Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at insregistration.run(insregistration:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552468983424.run(TempTestSuite1552468983424.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

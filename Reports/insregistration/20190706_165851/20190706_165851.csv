@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+insregistration,Firefox 67.0,,2019-07-06 16:58:58,2019-07-06 16:59:50,51.853s,FAILED
+,,,,,,
+Test Cases/insregistration,Firefox 67.0,,2019-07-06 16:58:58,2019-07-06 16:59:47,49.282s,FAILED
+"openBrowser("""")",Firefox 67.0,,2019-07-06 16:58:59,2019-07-06 16:59:07,8.161s,PASSED
+"navigateToUrl(""http://localhost:8090/eclinic/"")",Firefox 67.0,,2019-07-06 16:59:07,2019-07-06 16:59:07,0.239s,PASSED
+delay(5),Firefox 67.0,,2019-07-06 16:59:07,2019-07-06 16:59:12,5.043s,PASSED
+"setText(findTestObject(""Components/logins/input_MEDAS HIS_user_name""), username)",Firefox 67.0,,2019-07-06 16:59:12,2019-07-06 16:59:12,0.153s,PASSED
+"setText(findTestObject(""Components/logins/input_MEDAS HIS_user_password""), password)",Firefox 67.0,,2019-07-06 16:59:12,2019-07-06 16:59:12,0.089s,PASSED
+"click(findTestObject(""Components/Buttons/login""))",Firefox 67.0,,2019-07-06 16:59:12,2019-07-06 16:59:15,2.746s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/officeselection""))",Firefox 67.0,,2019-07-06 16:59:15,2019-07-06 16:59:15,0.318s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/selectoffice""))",Firefox 67.0,,2019-07-06 16:59:15,2019-07-06 16:59:16,0.309s,PASSED
+"click(findTestObject(""Components/Buttons/go""))",Firefox 67.0,,2019-07-06 16:59:16,2019-07-06 16:59:20,4.113s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/Frontdesktab""))",Firefox 67.0,,2019-07-06 16:59:20,2019-07-06 16:59:23,3.142s,PASSED
+delay(3),Firefox 67.0,,2019-07-06 16:59:23,2019-07-06 16:59:26,3.005s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/registrationTab""))",Firefox 67.0,,2019-07-06 16:59:26,2019-07-06 16:59:29,2.698s,PASSED
+delay(3),Firefox 67.0,,2019-07-06 16:59:29,2019-07-06 16:59:32,3.008s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick""))",Firefox 67.0,,2019-07-06 16:59:32,2019-07-06 16:59:32,0.320s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/ReferralSelected""))",Firefox 67.0,,2019-07-06 16:59:32,2019-07-06 16:59:32,0.328s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick""))",Firefox 67.0,,2019-07-06 16:59:32,2019-07-06 16:59:33,0.328s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/ConsultationSelected""))",Firefox 67.0,,2019-07-06 16:59:33,2019-07-06 16:59:33,0.358s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/AlreadyGenerated""))",Firefox 67.0,,2019-07-06 16:59:33,2019-07-06 16:59:33,0.312s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/PatientName""), patientname)",Firefox 67.0,,2019-07-06 16:59:33,2019-07-06 16:59:34,0.146s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/DOB""), ""11111985"")",Firefox 67.0,,2019-07-06 16:59:34,2019-07-06 16:59:34,0.101s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/GenderClick""))",Firefox 67.0,,2019-07-06 16:59:34,2019-07-06 16:59:34,0.290s,PASSED
+"selectOptionByValue(findTestObject(""cashregister/Page_eClinicUserAdministrator/GenderSelected""), ""Male"", true)",Firefox 67.0,,2019-07-06 16:59:34,2019-07-06 16:59:34,0.552s,PASSED
+"selectOptionByValue(findTestObject(""cashregister/Page_eClinicUserAdministrator/VisaTypeSelected""), ""resident"", true)",Firefox 67.0,,2019-07-06 16:59:34,2019-07-06 16:59:35,0.527s,PASSED
+"selectOptionByValue(findTestObject(""cashregister/Page_eClinicUserAdministrator/Mobile1Ext""), ""97155"", true)",Firefox 67.0,,2019-07-06 16:59:35,2019-07-06 16:59:36,1.049s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/MobilenumInserted""), mobile)",Firefox 67.0,,2019-07-06 16:59:36,2019-07-06 16:59:36,0.106s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick""))",Firefox 67.0,,2019-07-06 16:59:36,2019-07-06 16:59:36,0.278s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected""))",Firefox 67.0,,2019-07-06 16:59:36,2019-07-06 16:59:37,0.327s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/Mobile2Inserted""), ""5841201214"")",Firefox 67.0,,2019-07-06 16:59:37,2019-07-06 16:59:37,0.122s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/CityClick""))",Firefox 67.0,,2019-07-06 16:59:37,2019-07-06 16:59:37,0.386s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/CitySelected""))",Firefox 67.0,,2019-07-06 16:59:37,2019-07-06 16:59:38,0.411s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/EmailInserted""), ""we@qq.com"")",Firefox 67.0,,2019-07-06 16:59:38,2019-07-06 16:59:38,0.143s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/FathernameInserted""), ""dad"")",Firefox 67.0,,2019-07-06 16:59:38,2019-07-06 16:59:38,0.080s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/DesignationInserted""), ""qa"")",Firefox 67.0,,2019-07-06 16:59:38,2019-07-06 16:59:38,0.072s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/SourceClick""))",Firefox 67.0,,2019-07-06 16:59:38,2019-07-06 16:59:38,0.273s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/SourceSelected""))",Firefox 67.0,,2019-07-06 16:59:38,2019-07-06 16:59:39,0.358s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/SourceInserted""), ""source tested"")",Firefox 67.0,,2019-07-06 16:59:39,2019-07-06 16:59:39,0.120s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/EmergencyNameInserted""), ""4578124512"")",Firefox 67.0,,2019-07-06 16:59:39,2019-07-06 16:59:39,0.075s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/RelationInserted""), ""fath"")",Firefox 67.0,,2019-07-06 16:59:39,2019-07-06 16:59:39,0.061s,PASSED
+"selectOptionByValue(findTestObject(""cashregister/Page_eClinicUserAdministrator/DepartmentSelected""), ""6"", false)",Firefox 67.0,,2019-07-06 16:59:39,2019-07-06 16:59:39,0.305s,PASSED
+"selectOptionByValue(findTestObject(""cashregister/Page_eClinicUserAdministrator/DoctorSelected""), ""3"", false)",Firefox 67.0,,2019-07-06 16:59:39,2019-07-06 16:59:40,0.346s,PASSED
+"selectOptionByValue(findTestObject(""cashregister/Page_eClinicUserAdministrator/NationalitySelected""), ""2"", false)",Firefox 67.0,,2019-07-06 16:59:40,2019-07-06 16:59:40,0.401s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/EmiratesIDInserted""), residenceid, CONTINUE_ON_FAILURE)",Firefox 67.0,,2019-07-06 16:59:40,2019-07-06 16:59:40,0.125s,PASSED
+"selectOptionByValue(findTestObject(""cashregister/Page_eClinicUserAdministrator/OtherIDClick""), ""3"", false)",Firefox 67.0,,2019-07-06 16:59:40,2019-07-06 16:59:40,0.325s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/OtherIDInserted""), ""230232421"")",Firefox 67.0,,2019-07-06 16:59:40,2019-07-06 16:59:40,0.119s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/TelephoneClick""))",Firefox 67.0,,2019-07-06 16:59:40,2019-07-06 16:59:41,0.265s,PASSED
+"click(findTestObject(""cashregister/Page_eClinicUserAdministrator/TelephoneSelected""))",Firefox 67.0,,2019-07-06 16:59:41,2019-07-06 16:59:41,0.277s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/TelephoneInserted""), ""231789512"")",Firefox 67.0,,2019-07-06 16:59:41,2019-07-06 16:59:41,0.075s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/PostalCodeInserted""), ""235687451"")",Firefox 67.0,,2019-07-06 16:59:41,2019-07-06 16:59:41,0.070s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/MothernameInserted""), ""mom"")",Firefox 67.0,,2019-07-06 16:59:41,2019-07-06 16:59:41,0.117s,PASSED
+"setText(findTestObject(""cashregister/Page_eClinicUserAdministrator/EmergencyNumInserted""), ""125658748"")",Firefox 67.0,,2019-07-06 16:59:41,2019-07-06 16:59:41,0.090s,PASSED
+"selectOptionByValue(findTestObject(""cashregister/Page_eClinicUserAdministrator/RegistrationtypeSelected""), ""Normal"", false)",Firefox 67.0,,2019-07-06 16:59:41,2019-07-06 16:59:42,0.345s,PASSED
+delay(3),Firefox 67.0,,2019-07-06 16:59:42,2019-07-06 16:59:45,3.004s,PASSED
+"click(findTestObject(""insregistration/span_No""))",Firefox 67.0,,2019-07-06 16:59:45,2019-07-06 16:59:45,0.299s,PASSED
+delay(2),Firefox 67.0,,2019-07-06 16:59:45,2019-07-06 16:59:47,2.007s,PASSED
+"selectOptionByValue(findTestObject(""insregistration/li_Yes""), ""2"", false)",Firefox 67.0,,2019-07-06 16:59:47,2019-07-06 16:59:47,0.360s,FAILED

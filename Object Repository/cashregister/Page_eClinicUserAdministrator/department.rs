@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>department</name>
+   <tag></tag>
+   <elementGuidId>9a12c55a-8ea6-41e9-9182-eb7474a2af64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>/html/body/table/tbody/tr[2]/td[2]/form/div[1]/table/tbody/tr[19]/td/table/tbody/tr[1]/td[1]/select/option[3]</value>
+   </webElementXpaths>
+</WebElementEntity>

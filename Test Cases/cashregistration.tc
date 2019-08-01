@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>cashregistration</name>
+   <tag>functionaltesting</tag>
+   <comment></comment>
+   <testCaseGuid>fdae4e62-ab78-4973-aeb5-88624e15b79d</testCaseGuid>
+   <variable>
+      <defaultValue>' '</defaultValue>
+      <description></description>
+      <id>31d9402f-bf6b-447c-ac97-0bbdf3adb928</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>' '</defaultValue>
+      <description></description>
+      <id>337b97f6-f9ec-4d78-b980-053ad5252de3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>' '</defaultValue>
+      <description></description>
+      <id>f62f4830-b867-4c11-a0dd-af01ea666315</id>
+      <masked>false</masked>
+      <name>patientname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>09cc1594-706d-4419-9b09-70d3fa7e9918</id>
+      <masked>false</masked>
+      <name>mobile</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f6276eff-e9e9-413d-82ec-603fa03f9a49</id>
+      <masked>false</masked>
+      <name>residenceid</name>
+   </variable>
+</TestCaseEntity>

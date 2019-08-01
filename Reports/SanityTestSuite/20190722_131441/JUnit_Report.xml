@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SanityTestSuite" time="424" tests="7" failures="2" errors="0">
+   <testsuite name="SanityTestSuite" tests="7" failures="2" errors="0" time="424" timestamp="2019-07-22 13:14:47" hostname="DELL - DESKTOP-6QK8RF8" id="Test Suites/SanityTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\katalon\\damasproject\\Reports\\SanityTestSuite\\20190722_131441"/>
+         <property name="logFiles" value="E:\\katalon\\damasproject\\Reports\\SanityTestSuite\\20190722_131441\\execution0.log"/>
+         <property name="attachments" value="E:\\katalon\\damasproject\\Reports\\SanityTestSuite\\20190722_131441\\1563787037537.png"/>
+         <property name="hostName" value="DELL - DESKTOP-6QK8RF8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Firefox 67.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a4f7a76d-1393-4c0d-949a-a9e4193c53c9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/userlogin" classname="Test Cases/userlogin" status="PASSED">
+         <system-out><![CDATA[2019-07-22 13:14:47 - [TEST_CASE][PASSED] - Test Cases/userlogin: Test Cases/userlogin
+
+2019-07-22 13:14:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-22 13:14:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-07-22 13:14:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-22 13:14:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-22 13:14:56 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8090/eclinic/"): Navigate to 'http://localhost:8090/eclinic/' successfully
+
+2019-07-22 13:14:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8090/eclinic/' successfully
+
+2019-07-22 13:14:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:15:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:15:02 - [TEST_STEP][PASSED] - setText(findTestObject("Components/logins/input_MEDAS HIS_user_name"), "Admin"): Text 'Admin' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_name'
+
+2019-07-22 13:15:02 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_name'
+
+2019-07-22 13:15:02 - [TEST_STEP][PASSED] - setText(findTestObject("Components/logins/input_MEDAS HIS_user_password"), "12345"): Text '12345' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_password'
+
+2019-07-22 13:15:02 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_password'
+
+2019-07-22 13:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/login")): Object: 'Object Repository/Components/Buttons/login' is clicked on
+
+2019-07-22 13:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/login' is clicked on
+
+2019-07-22 13:15:03 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/officeselection")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/officeselection' is clicked on
+
+2019-07-22 13:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/officeselection' is clicked on
+
+2019-07-22 13:15:03 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/selectoffice")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/selectoffice' is clicked on
+
+2019-07-22 13:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/selectoffice' is clicked on
+
+2019-07-22 13:15:04 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/go")): Object: 'Object Repository/Components/Buttons/go' is clicked on
+
+2019-07-22 13:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/go' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/registrationlists" classname="Test Cases/registrationlists" status="PASSED">
+         <system-out><![CDATA[2019-07-22 13:15:05 - [TEST_CASE][PASSED] - Test Cases/registrationlists: Test Cases/registrationlists
+
+2019-07-22 13:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/registrationlists/span_Front Desk")): Object: 'Object Repository/registrationlists/span_Front Desk' is clicked on
+
+2019-07-22 13:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/registrationlists/span_Front Desk' is clicked on
+
+2019-07-22 13:15:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/registrationlists/span_Registration")): Object: 'Object Repository/registrationlists/span_Registration' is clicked on
+
+2019-07-22 13:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/registrationlists/span_Registration' is clicked on
+
+2019-07-22 13:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/registrationlists/span_Registration List")): Object: 'Object Repository/registrationlists/span_Registration List' is clicked on
+
+2019-07-22 13:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/registrationlists/span_Registration List' is clicked on
+
+2019-07-22 13:15:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_op_number"), "DMC01-035984"): Text 'DMC01-035984' is set on object 'Object Repository/registrationlists/input_Action_op_number'
+
+2019-07-22 13:15:08 - [MESSAGE][PASSED] - Text 'DMC01-035984' is set on object 'Object Repository/registrationlists/input_Action_op_number'
+
+2019-07-22 13:15:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/registrationlists/input_Action_op_number"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/registrationlists/input_Action_op_number'
+
+2019-07-22 13:15:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/registrationlists/input_Action_op_number'
+
+2019-07-22 13:15:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_op_number"), ""): Text '' is set on object 'Object Repository/registrationlists/input_Action_op_number'
+
+2019-07-22 13:15:11 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/registrationlists/input_Action_op_number'
+
+2019-07-22 13:15:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_fromdate"), "01-01-2016"): Text '01-01-2016' is set on object 'Object Repository/registrationlists/input_Action_fromdate'
+
+2019-07-22 13:15:14 - [MESSAGE][PASSED] - Text '01-01-2016' is set on object 'Object Repository/registrationlists/input_Action_fromdate'
+
+2019-07-22 13:15:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_todate"), "01-01-2019"): Text '01-01-2019' is set on object 'Object Repository/registrationlists/input_Action_todate'
+
+2019-07-22 13:15:17 - [MESSAGE][PASSED] - Text '01-01-2019' is set on object 'Object Repository/registrationlists/input_Action_todate'
+
+2019-07-22 13:15:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_patient_name"), "salama"): Text 'salama' is set on object 'Object Repository/registrationlists/input_Action_patient_name'
+
+2019-07-22 13:15:20 - [MESSAGE][PASSED] - Text 'salama' is set on object 'Object Repository/registrationlists/input_Action_patient_name'
+
+2019-07-22 13:15:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/registrationlists/input_Action_patient_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/registrationlists/input_Action_patient_name'
+
+2019-07-22 13:15:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/registrationlists/input_Action_patient_name'
+
+2019-07-22 13:15:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_patient_name"), ""): Text '' is set on object 'Object Repository/registrationlists/input_Action_patient_name'
+
+2019-07-22 13:15:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/registrationlists/input_Action_patient_name'
+
+2019-07-22 13:15:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_startDate"), "01-01-2017"): Text '01-01-2017' is set on object 'Object Repository/registrationlists/input_Action_startDate'
+
+2019-07-22 13:15:24 - [MESSAGE][PASSED] - Text '01-01-2017' is set on object 'Object Repository/registrationlists/input_Action_startDate'
+
+2019-07-22 13:15:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/registrationlists/input_Action_startDate"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/registrationlists/input_Action_startDate'
+
+2019-07-22 13:15:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/registrationlists/input_Action_startDate'
+
+2019-07-22 13:15:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_startDate"), ""): Text '' is set on object 'Object Repository/registrationlists/input_Action_startDate'
+
+2019-07-22 13:15:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/registrationlists/input_Action_startDate'
+
+2019-07-22 13:15:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_emirates_id"), "111-1111-1111111-1"): Text '111-1111-1111111-1' is set on object 'Object Repository/registrationlists/input_Action_emirates_id'
+
+2019-07-22 13:15:33 - [MESSAGE][PASSED] - Text '111-1111-1111111-1' is set on object 'Object Repository/registrationlists/input_Action_emirates_id'
+
+2019-07-22 13:15:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/registrationlists/input_Action_emirates_id"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/registrationlists/input_Action_emirates_id'
+
+2019-07-22 13:15:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/registrationlists/input_Action_emirates_id'
+
+2019-07-22 13:15:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_emirates_id"), ""): Text '' is set on object 'Object Repository/registrationlists/input_Action_emirates_id'
+
+2019-07-22 13:15:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/registrationlists/input_Action_emirates_id'
+
+2019-07-22 13:15:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registrationlists/input_Action_mobile"), "97150"): Text '97150' is set on object 'Object Repository/registrationlists/input_Action_mobile'
+
+2019-07-22 13:15:39 - [MESSAGE][PASSED] - Text '97150' is set on object 'Object Repository/registrationlists/input_Action_mobile'
+
+2019-07-22 13:15:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/registrationlists/input_Action_mobile"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/registrationlists/input_Action_mobile'
+
+2019-07-22 13:15:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/registrationlists/input_Action_mobile'
+
+2019-07-22 13:15:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/registrationlists/img")): Object: 'Object Repository/registrationlists/img' is clicked on
+
+2019-07-22 13:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/registrationlists/img' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/cashregistration" classname="Test Cases/cashregistration" status="PASSED">
+         <system-out><![CDATA[2019-07-22 13:15:42 - [TEST_CASE][PASSED] - Test Cases/cashregistration: Test Cases/cashregistration
+
+2019-07-22 13:15:43 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Frontdesktab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-22 13:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-22 13:15:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:47 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/registrationTab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-22 13:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-22 13:15:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:15:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:15:50 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-22 13:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-22 13:15:51 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-22 13:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-22 13:15:51 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-22 13:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-22 13:15:51 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-22 13:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-22 13:15:51 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/AlreadyGenerated")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-22 13:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-22 13:15:52 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/PatientName"), patientname): Text '2Auto38' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-22 13:15:52 - [MESSAGE][PASSED] - Text '2Auto38' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-22 13:15:52 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/DOB"), "11111985"): Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-22 13:15:52 - [MESSAGE][PASSED] - Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-22 13:15:52 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-22 13:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-22 13:15:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderSelected"), "Male", true): All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-22 13:15:52 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-22 13:15:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/VisaTypeSelected"), "resident", true): All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/VisaTypeSelected'  using regular expression
+
+2019-07-22 13:15:53 - [MESSAGE][PASSED] - All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/VisaTypeSelected'  using regular expression
+
+2019-07-22 13:15:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile1Ext"), "97155", true): All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile1Ext'  using regular expression
+
+2019-07-22 13:15:53 - [MESSAGE][PASSED] - All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile1Ext'  using regular expression
+
+2019-07-22 13:15:53 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/MobilenumInserted"), mobile): Text '5654470199' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MobilenumInserted'
+
+2019-07-22 13:15:53 - [MESSAGE][PASSED] - Text '5654470199' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MobilenumInserted'
+
+2019-07-22 13:15:53 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick' is clicked on
+
+2019-07-22 13:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick' is clicked on
+
+2019-07-22 13:15:54 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected' is clicked on
+
+2019-07-22 13:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected' is clicked on
+
+2019-07-22 13:15:54 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2Inserted"), "5841201214"): Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2Inserted'
+
+2019-07-22 13:15:54 - [MESSAGE][PASSED] - Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2Inserted'
+
+2019-07-22 13:15:54 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/CityClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick' is clicked on
+
+2019-07-22 13:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick' is clicked on
+
+2019-07-22 13:15:54 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/CitySelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CitySelected' is clicked on
+
+2019-07-22 13:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CitySelected' is clicked on
+
+2019-07-22 13:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmailInserted"), "we@qq.com"): Text 'we@qq.com' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmailInserted'
+
+2019-07-22 13:15:55 - [MESSAGE][PASSED] - Text 'we@qq.com' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmailInserted'
+
+2019-07-22 13:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/FathernameInserted"), "dad"): Text 'dad' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/FathernameInserted'
+
+2019-07-22 13:15:55 - [MESSAGE][PASSED] - Text 'dad' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/FathernameInserted'
+
+2019-07-22 13:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/DesignationInserted"), "qa"): Text 'qa' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DesignationInserted'
+
+2019-07-22 13:15:55 - [MESSAGE][PASSED] - Text 'qa' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DesignationInserted'
+
+2019-07-22 13:15:55 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/SourceClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceClick' is clicked on
+
+2019-07-22 13:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceClick' is clicked on
+
+2019-07-22 13:15:55 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/SourceSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceSelected' is clicked on
+
+2019-07-22 13:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceSelected' is clicked on
+
+2019-07-22 13:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/SourceInserted"), "source tested"): Text 'source tested' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceInserted'
+
+2019-07-22 13:15:55 - [MESSAGE][PASSED] - Text 'source tested' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceInserted'
+
+2019-07-22 13:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmergencyNameInserted"), "4578124512"): Text '4578124512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNameInserted'
+
+2019-07-22 13:15:55 - [MESSAGE][PASSED] - Text '4578124512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNameInserted'
+
+2019-07-22 13:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/RelationInserted"), "fath"): Text 'fath' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RelationInserted'
+
+2019-07-22 13:15:55 - [MESSAGE][PASSED] - Text 'fath' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RelationInserted'
+
+2019-07-22 13:15:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/DepartmentSelected"), "7", false): All options with value '7' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DepartmentSelected' 
+
+2019-07-22 13:15:56 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DepartmentSelected' 
+
+2019-07-22 13:15:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 13:15:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 13:15:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/DoctorSelected"), "8", false): All options with value '8' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DoctorSelected' 
+
+2019-07-22 13:15:58 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DoctorSelected' 
+
+2019-07-22 13:15:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 13:16:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 13:16:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/NationalitySelected"), "2", false): All options with value '2' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/NationalitySelected' 
+
+2019-07-22 13:16:00 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/NationalitySelected' 
+
+2019-07-22 13:16:00 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmiratesIDInserted"), residenceid, CONTINUE_ON_FAILURE): Text '111-1111-1111111-1' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmiratesIDInserted'
+
+2019-07-22 13:16:00 - [MESSAGE][PASSED] - Text '111-1111-1111111-1' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmiratesIDInserted'
+
+2019-07-22 13:16:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/OtherIDClick"), "3", false): All options with value '3' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDClick' 
+
+2019-07-22 13:16:01 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDClick' 
+
+2019-07-22 13:16:01 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/OtherIDInserted"), "230232421"): Text '230232421' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDInserted'
+
+2019-07-22 13:16:01 - [MESSAGE][PASSED] - Text '230232421' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDInserted'
+
+2019-07-22 13:16:01 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/TelephoneClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneClick' is clicked on
+
+2019-07-22 13:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneClick' is clicked on
+
+2019-07-22 13:16:01 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/TelephoneSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneSelected' is clicked on
+
+2019-07-22 13:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneSelected' is clicked on
+
+2019-07-22 13:16:01 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/TelephoneInserted"), "231789512"): Text '231789512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneInserted'
+
+2019-07-22 13:16:01 - [MESSAGE][PASSED] - Text '231789512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneInserted'
+
+2019-07-22 13:16:01 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/PostalCodeInserted"), "235687451"): Text '235687451' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PostalCodeInserted'
+
+2019-07-22 13:16:02 - [MESSAGE][PASSED] - Text '235687451' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PostalCodeInserted'
+
+2019-07-22 13:16:02 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/MothernameInserted"), "mom"): Text 'mom' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MothernameInserted'
+
+2019-07-22 13:16:02 - [MESSAGE][PASSED] - Text 'mom' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MothernameInserted'
+
+2019-07-22 13:16:02 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmergencyNumInserted"), "125658748"): Text '125658748' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNumInserted'
+
+2019-07-22 13:16:02 - [MESSAGE][PASSED] - Text '125658748' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNumInserted'
+
+2019-07-22 13:16:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/RegistrationtypeSelected"), "Normal", false): All options with value 'Normal' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationtypeSelected' 
+
+2019-07-22 13:16:02 - [MESSAGE][PASSED] - All options with value 'Normal' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationtypeSelected' 
+
+2019-07-22 13:16:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 13:16:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 13:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/save")): Object: 'Object Repository/Components/Buttons/save' is clicked on
+
+2019-07-22 13:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/save' is clicked on
+
+2019-07-22 13:16:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:16:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:16:10 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/RegistrationlistTab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationlistTab' is clicked on
+
+2019-07-22 13:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationlistTab' is clicked on
+
+2019-07-22 13:16:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:16:14 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/revisitpatient" classname="Test Cases/revisitpatient" status="PASSED">
+         <system-out><![CDATA[2019-07-22 13:16:14 - [TEST_CASE][PASSED] - Test Cases/revisitpatient: Test Cases/revisitpatient
+
+2019-07-22 13:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/revisitpatient/span_Front Desk")): Object: 'Object Repository/revisitpatient/span_Front Desk' is clicked on
+
+2019-07-22 13:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/revisitpatient/span_Front Desk' is clicked on
+
+2019-07-22 13:16:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/revisitpatient/span_Registration")): Object: 'Object Repository/revisitpatient/span_Registration' is clicked on
+
+2019-07-22 13:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/revisitpatient/span_Registration' is clicked on
+
+2019-07-22 13:16:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/revisitpatient/span_Patient Revisit")): Object: 'Object Repository/revisitpatient/span_Patient Revisit' is clicked on
+
+2019-07-22 13:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/revisitpatient/span_Patient Revisit' is clicked on
+
+2019-07-22 13:16:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/revisitpatient/input_MR No_opno"), "DMC01-035984"): Text 'DMC01-035984' is set on object 'Object Repository/revisitpatient/input_MR No_opno'
+
+2019-07-22 13:16:17 - [MESSAGE][PASSED] - Text 'DMC01-035984' is set on object 'Object Repository/revisitpatient/input_MR No_opno'
+
+2019-07-22 13:16:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("revisitpatient/input_MR No_opno"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/revisitpatient/input_MR No_opno'
+
+2019-07-22 13:16:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/revisitpatient/input_MR No_opno'
+
+2019-07-22 13:16:17 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-07-22 13:16:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-22 13:16:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/revisitpatient/select_department"), "6", true): All options with value '6' are selected in object 'Object Repository/revisitpatient/select_department'  using regular expression
+
+2019-07-22 13:16:27 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/revisitpatient/select_department'  using regular expression
+
+2019-07-22 13:16:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:16:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:16:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/revisitpatient/select_doctor"), "2", true): All options with value '2' are selected in object 'Object Repository/revisitpatient/select_doctor'  using regular expression
+
+2019-07-22 13:16:32 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/revisitpatient/select_doctor'  using regular expression
+
+2019-07-22 13:16:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:16:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:16:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/revisitpatient/input__savebut")): Object: 'Object Repository/revisitpatient/input__savebut' is clicked on
+
+2019-07-22 13:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/revisitpatient/input__savebut' is clicked on
+
+2019-07-22 13:16:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-07-22 13:16:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-22 13:16:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-22 13:16:47 - [TEST_STEP][PASSED] - AlertText = alert().getText(): null
+
+2019-07-22 13:16:47 - [TEST_STEP][PASSED] - verifyEqual(AlertText, "Patient Already Visited This Doctor Today. Do you want to continue ?"): Actual object 'Patient Already Visited This Doctor Today. Do you want to continue ?' and expected object 'Patient Already Visited This Doctor Today. Do you want to continue ?' are equal
+
+2019-07-22 13:16:47 - [MESSAGE][PASSED] - Actual object 'Patient Already Visited This Doctor Today. Do you want to continue ?' and expected object 'Patient Already Visited This Doctor Today. Do you want to continue ?' are equal
+
+2019-07-22 13:16:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:16:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:16:52 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-07-22 13:16:52 - [MESSAGE][PASSED] - Alert accepted
+
+2019-07-22 13:16:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:16:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:16:55 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-07-22 13:16:55 - [MESSAGE][PASSED] - Alert accepted
+
+2019-07-22 13:16:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:16:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:16:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/revisitpatient/img")): Object: 'Object Repository/revisitpatient/img' is clicked on
+
+2019-07-22 13:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/revisitpatient/img' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/insregistration" classname="Test Cases/insregistration" status="FAILED">
+         <failure type="FAILED" message="Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at insregistration.run(insregistration:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563786885679.run(TempTestSuite1563786885679.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-22 13:16:59 - [TEST_CASE][FAILED] - Test Cases/insregistration: Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at insregistration.run(insregistration:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563786885679.run(TempTestSuite1563786885679.groovy:35)
+
+
+2019-07-22 13:16:59 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Frontdesktab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-22 13:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-22 13:17:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:03 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/registrationTab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-22 13:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-22 13:17:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:07 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-22 13:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-22 13:17:07 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-22 13:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-22 13:17:07 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-22 13:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-22 13:17:08 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-22 13:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-22 13:17:08 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/AlreadyGenerated")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-22 13:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-22 13:17:08 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/PatientName"), patientname): Text '4Auto_034' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-22 13:17:08 - [MESSAGE][PASSED] - Text '4Auto_034' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-22 13:17:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 13:17:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 13:17:10 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/DOB"), "11111985"): Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-22 13:17:10 - [MESSAGE][PASSED] - Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-22 13:17:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 13:17:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 13:17:12 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-22 13:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-22 13:17:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 13:17:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 13:17:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderSelected"), "Male", true): All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-22 13:17:15 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-22 13:17:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 13:17:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 13:17:17 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/VisaTyWebUI.delay(2)peSelected"), "resident", true): selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/VisaTyWebUI.delay(2)peSelected"), "resident", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at insregistration.run(insregistration:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563786885679.run(TempTestSuite1563786885679.groovy:35)
+
+
+2019-07-22 13:17:17 - [MESSAGE][WARNING] - Test object with id 'Object Repository/cashregister/Page_eClinicUserAdministrator/VisaTyWebUI.delay(2)peSelected' does not exist
+
+2019-07-22 13:17:17 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-07-22 13:17:17 - [MESSAGE][FAILED] - Unable to select option by value  using regular expression
+[[ATTACHMENT|E:\\katalon\\damasproject\\Reports\\SanityTestSuite\\20190722_131441\\1563787037537.png]]
+
+2019-07-22 13:17:17 - [MESSAGE][FAILED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/VisaTyWebUI.delay(2)peSelected"), "resident", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at insregistration.run(insregistration:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563786885679.run(TempTestSuite1563786885679.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-22 13:16:59 - [TEST_CASE][FAILED] - Test Cases/insregistration: Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at insregistration.run(insregistration:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563786885679.run(TempTestSuite1563786885679.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/editconsultation" classname="Test Cases/editconsultation" status="PASSED">
+         <system-out><![CDATA[2019-07-22 13:17:17 - [TEST_CASE][PASSED] - Test Cases/editconsultation: Test Cases/editconsultation
+
+2019-07-22 13:17:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/editconsultation/span_Front Desk")): Object: 'Object Repository/editconsultation/span_Front Desk' is clicked on
+
+2019-07-22 13:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/editconsultation/span_Front Desk' is clicked on
+
+2019-07-22 13:17:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/editconsultation/span_Registration")): Object: 'Object Repository/editconsultation/span_Registration' is clicked on
+
+2019-07-22 13:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/editconsultation/span_Registration' is clicked on
+
+2019-07-22 13:17:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/editconsultation/span_Registration List")): Object: 'Object Repository/editconsultation/span_Registration List' is clicked on
+
+2019-07-22 13:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/editconsultation/span_Registration List' is clicked on
+
+2019-07-22 13:17:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/editconsultation/input_Action_patient_name"), "AUTO"): Text 'AUTO' is set on object 'Object Repository/editconsultation/input_Action_patient_name'
+
+2019-07-22 13:17:28 - [MESSAGE][PASSED] - Text 'AUTO' is set on object 'Object Repository/editconsultation/input_Action_patient_name'
+
+2019-07-22 13:17:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("editconsultation/input_Action_patient_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/editconsultation/input_Action_patient_name'
+
+2019-07-22 13:17:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/editconsultation/input_Action_patient_name'
+
+2019-07-22 13:17:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/editconsultation/img")): Object: 'Object Repository/editconsultation/img' is clicked on
+
+2019-07-22 13:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/editconsultation/img' is clicked on
+
+2019-07-22 13:17:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/editconsultation/select_SelectLocalResidentVisitor"), "local", true): All options with value 'local' are selected in object 'Object Repository/editconsultation/select_SelectLocalResidentVisitor'  using regular expression
+
+2019-07-22 13:17:38 - [MESSAGE][PASSED] - All options with value 'local' are selected in object 'Object Repository/editconsultation/select_SelectLocalResidentVisitor'  using regular expression
+
+2019-07-22 13:17:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/editconsultation/input_Clinic File No_Button")): Object: 'Object Repository/editconsultation/input_Clinic File No_Button' is clicked on
+
+2019-07-22 13:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/editconsultation/input_Clinic File No_Button' is clicked on
+
+2019-07-22 13:17:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:44 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-22 13:17:44 - [TEST_STEP][PASSED] - AlertText1 = alert().getText(): null
+
+2019-07-22 13:17:44 - [TEST_STEP][PASSED] - verifyEqual(AlertText1, "Updated"): Actual object 'Updated' and expected object 'Updated' are equal
+
+2019-07-22 13:17:44 - [MESSAGE][PASSED] - Actual object 'Updated' and expected object 'Updated' are equal
+
+2019-07-22 13:17:44 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-07-22 13:17:44 - [MESSAGE][PASSED] - Alert accepted
+
+2019-07-22 13:17:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/editconsultation/button_Cancel")): Object: 'Object Repository/editconsultation/button_Cancel' is clicked on
+
+2019-07-22 13:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/editconsultation/button_Cancel' is clicked on
+
+2019-07-22 13:17:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/editconsultation/img_1")): Object: 'Object Repository/editconsultation/img_1' is clicked on
+
+2019-07-22 13:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/editconsultation/img_1' is clicked on
+
+2019-07-22 13:17:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:51 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/resourceappointment" classname="Test Cases/resourceappointment" status="PASSED">
+         <system-out><![CDATA[2019-07-22 13:17:51 - [TEST_CASE][PASSED] - Test Cases/resourceappointment: Test Cases/resourceappointment
+
+2019-07-22 13:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointment/span_Front Desk")): Object: 'Object Repository/resourceappointment/span_Front Desk' is clicked on
+
+2019-07-22 13:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointment/span_Front Desk' is clicked on
+
+2019-07-22 13:17:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointment/span_Appointment")): Object: 'Object Repository/resourceappointment/span_Appointment' is clicked on
+
+2019-07-22 13:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointment/span_Appointment' is clicked on
+
+2019-07-22 13:17:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointment/input_Date_appoint_date"), "30-12-2019"): Text '30-12-2019' is set on object 'Object Repository/resourceappointment/input_Date_appoint_date'
+
+2019-07-22 13:17:55 - [MESSAGE][PASSED] - Text '30-12-2019' is set on object 'Object Repository/resourceappointment/input_Date_appoint_date'
+
+2019-07-22 13:17:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:17:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointment/pagebody")): Object: 'Object Repository/resourceappointment/pagebody' is clicked on
+
+2019-07-22 13:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointment/pagebody' is clicked on
+
+2019-07-22 13:17:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointment/div_1000 AM")): Object: 'Object Repository/resourceappointment/div_1000 AM' is clicked on
+
+2019-07-22 13:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointment/div_1000 AM' is clicked on
+
+2019-07-22 13:18:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/resourceappointment/select_doctor"), "3-6", true): All options with value '3-6' are selected in object 'Object Repository/resourceappointment/select_doctor'  using regular expression
+
+2019-07-22 13:18:07 - [MESSAGE][PASSED] - All options with value '3-6' are selected in object 'Object Repository/resourceappointment/select_doctor'  using regular expression
+
+2019-07-22 13:18:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/resourceappointment/select_procedure"), "Procedure", true): All options with value 'Procedure' are selected in object 'Object Repository/resourceappointment/select_procedure'  using regular expression
+
+2019-07-22 13:18:10 - [MESSAGE][PASSED] - All options with value 'Procedure' are selected in object 'Object Repository/resourceappointment/select_procedure'  using regular expression
+
+2019-07-22 13:18:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/resourceappointment/select_value"), "2", true): All options with value '2' are selected in object 'Object Repository/resourceappointment/select_value'  using regular expression
+
+2019-07-22 13:18:13 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/resourceappointment/select_value'  using regular expression
+
+2019-07-22 13:18:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointment/input_Name_appoint_name"), "QAAuto_2"): Text 'QAAuto_2' is set on object 'Object Repository/resourceappointment/input_Name_appoint_name'
+
+2019-07-22 13:18:16 - [MESSAGE][PASSED] - Text 'QAAuto_2' is set on object 'Object Repository/resourceappointment/input_Name_appoint_name'
+
+2019-07-22 13:18:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/resourceappointment/select_mob code"), "97152", true): All options with value '97152' are selected in object 'Object Repository/resourceappointment/select_mob code'  using regular expression
+
+2019-07-22 13:18:20 - [MESSAGE][PASSED] - All options with value '97152' are selected in object 'Object Repository/resourceappointment/select_mob code'  using regular expression
+
+2019-07-22 13:18:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointment/input__mobileno"), "253210121"): Text '253210121' is set on object 'Object Repository/resourceappointment/input__mobileno'
+
+2019-07-22 13:18:23 - [MESSAGE][PASSED] - Text '253210121' is set on object 'Object Repository/resourceappointment/input__mobileno'
+
+2019-07-22 13:18:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointment/textarea_Remarks_appoint_purpose"), "remark1"): Text 'remark1' is set on object 'Object Repository/resourceappointment/textarea_Remarks_appoint_purpose'
+
+2019-07-22 13:18:26 - [MESSAGE][PASSED] - Text 'remark1' is set on object 'Object Repository/resourceappointment/textarea_Remarks_appoint_purpose'
+
+2019-07-22 13:18:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointment/input_Send SMS_needsms")): Object: 'Object Repository/resourceappointment/input_Send SMS_needsms' is clicked on
+
+2019-07-22 13:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointment/input_Send SMS_needsms' is clicked on
+
+2019-07-22 13:18:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointment/input_Send SMS_appsave")): Object: 'Object Repository/resourceappointment/input_Send SMS_appsave' is clicked on
+
+2019-07-22 13:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointment/input_Send SMS_appsave' is clicked on
+
+2019-07-22 13:18:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:18:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointment/Remark")): Object: 'Object Repository/resourceappointment/Remark' is clicked on
+
+2019-07-22 13:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointment/Remark' is clicked on
+
+2019-07-22 13:18:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/resourceappointment/Call Status"), "4", true): All options with value '4' are selected in object 'Object Repository/resourceappointment/Call Status'  using regular expression
+
+2019-07-22 13:18:42 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/resourceappointment/Call Status'  using regular expression
+
+2019-07-22 13:18:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointment/input_Call Status_Save")): Object: 'Object Repository/resourceappointment/input_Call Status_Save' is clicked on
+
+2019-07-22 13:18:45 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointment/input_Call Status_Save' is clicked on
+
+2019-07-22 13:18:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointment/img_1")): Object: 'Object Repository/resourceappointment/img_1' is clicked on
+
+2019-07-22 13:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointment/img_1' is clicked on
+
+2019-07-22 13:18:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:18:51 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-07-22 13:18:51 - [MESSAGE][PASSED] - Alert accepted
+
+2019-07-22 13:18:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:18:54 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/resourceappointmentsearch" classname="Test Cases/resourceappointmentsearch" status="PASSED">
+         <system-out><![CDATA[2019-07-22 13:18:54 - [TEST_CASE][PASSED] - Test Cases/resourceappointmentsearch: Test Cases/resourceappointmentsearch
+
+2019-07-22 13:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointmentsearch/span_Front Desk")): Object: 'Object Repository/resourceappointmentsearch/span_Front Desk' is clicked on
+
+2019-07-22 13:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointmentsearch/span_Front Desk' is clicked on
+
+2019-07-22 13:18:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointmentsearch/span_Appointment")): Object: 'Object Repository/resourceappointmentsearch/span_Appointment' is clicked on
+
+2019-07-22 13:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointmentsearch/span_Appointment' is clicked on
+
+2019-07-22 13:19:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointmentsearch/span_Resource Appointment Search")): Object: 'Object Repository/resourceappointmentsearch/span_Resource Appointment Search' is clicked on
+
+2019-07-22 13:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointmentsearch/span_Resource Appointment Search' is clicked on
+
+2019-07-22 13:19:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointmentsearch/input_Action_appoint_date"), "07-01-2019"): Text '07-01-2019' is set on object 'Object Repository/resourceappointmentsearch/input_Action_appoint_date'
+
+2019-07-22 13:19:11 - [MESSAGE][PASSED] - Text '07-01-2019' is set on object 'Object Repository/resourceappointmentsearch/input_Action_appoint_date'
+
+2019-07-22 13:19:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/resourceappointmentsearch/input_Action_appoint_date"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_appoint_date'
+
+2019-07-22 13:19:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_appoint_date'
+
+2019-07-22 13:19:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointmentsearch/input_Action_appoint_date"), ""): Text '' is set on object 'Object Repository/resourceappointmentsearch/input_Action_appoint_date'
+
+2019-07-22 13:19:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/resourceappointmentsearch/input_Action_appoint_date'
+
+2019-07-22 13:19:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointmentsearch/input_Action_op_number"), "DMC01-004724"): Text 'DMC01-004724' is set on object 'Object Repository/resourceappointmentsearch/input_Action_op_number'
+
+2019-07-22 13:19:26 - [MESSAGE][PASSED] - Text 'DMC01-004724' is set on object 'Object Repository/resourceappointmentsearch/input_Action_op_number'
+
+2019-07-22 13:19:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/resourceappointmentsearch/input_Action_op_number"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_op_number'
+
+2019-07-22 13:19:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_op_number'
+
+2019-07-22 13:19:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointmentsearch/input_Action_op_number"), ""): Text '' is set on object 'Object Repository/resourceappointmentsearch/input_Action_op_number'
+
+2019-07-22 13:19:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/resourceappointmentsearch/input_Action_op_number'
+
+2019-07-22 13:19:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointmentsearch/input_Action_mobile"), "9444"): Text '9444' is set on object 'Object Repository/resourceappointmentsearch/input_Action_mobile'
+
+2019-07-22 13:19:41 - [MESSAGE][PASSED] - Text '9444' is set on object 'Object Repository/resourceappointmentsearch/input_Action_mobile'
+
+2019-07-22 13:19:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/resourceappointmentsearch/input_Action_mobile"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_mobile'
+
+2019-07-22 13:19:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_mobile'
+
+2019-07-22 13:19:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointmentsearch/input_Action_mobile"), ""): Text '' is set on object 'Object Repository/resourceappointmentsearch/input_Action_mobile'
+
+2019-07-22 13:19:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/resourceappointmentsearch/input_Action_mobile'
+
+2019-07-22 13:19:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:19:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:19:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointmentsearch/input_Action_patient_name"), "obaid"): Text 'obaid' is set on object 'Object Repository/resourceappointmentsearch/input_Action_patient_name'
+
+2019-07-22 13:19:56 - [MESSAGE][PASSED] - Text 'obaid' is set on object 'Object Repository/resourceappointmentsearch/input_Action_patient_name'
+
+2019-07-22 13:19:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:20:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/resourceappointmentsearch/input_Action_patient_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_patient_name'
+
+2019-07-22 13:20:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_patient_name'
+
+2019-07-22 13:20:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointmentsearch/input_Action_patient_name"), ""): Text '' is set on object 'Object Repository/resourceappointmentsearch/input_Action_patient_name'
+
+2019-07-22 13:20:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/resourceappointmentsearch/input_Action_patient_name'
+
+2019-07-22 13:20:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:20:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointmentsearch/input_Action_rdoctor_name"), "16"): Text '16' is set on object 'Object Repository/resourceappointmentsearch/input_Action_rdoctor_name'
+
+2019-07-22 13:20:12 - [MESSAGE][PASSED] - Text '16' is set on object 'Object Repository/resourceappointmentsearch/input_Action_rdoctor_name'
+
+2019-07-22 13:20:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:20:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/resourceappointmentsearch/input_Action_rdoctor_name"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_rdoctor_name'
+
+2019-07-22 13:20:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_rdoctor_name'
+
+2019-07-22 13:20:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:20:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/resourceappointmentsearch/input_Action_rdoctor_name"), ""): Text '' is set on object 'Object Repository/resourceappointmentsearch/input_Action_rdoctor_name'
+
+2019-07-22 13:20:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/resourceappointmentsearch/input_Action_rdoctor_name'
+
+2019-07-22 13:20:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:20:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointmentsearch/span_Select an Option")): Object: 'Object Repository/resourceappointmentsearch/span_Select an Option' is clicked on
+
+2019-07-22 13:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointmentsearch/span_Select an Option' is clicked on
+
+2019-07-22 13:20:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointmentsearch/li_Dr. Adel Ahmed Al Aswa")): Object: 'Object Repository/resourceappointmentsearch/li_Dr. Adel Ahmed Al Aswa' is clicked on
+
+2019-07-22 13:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointmentsearch/li_Dr. Adel Ahmed Al Aswa' is clicked on
+
+2019-07-22 13:20:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:20:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointmentsearch/span_----All--")): Object: 'Object Repository/resourceappointmentsearch/span_----All--' is clicked on
+
+2019-07-22 13:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointmentsearch/span_----All--' is clicked on
+
+2019-07-22 13:20:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:20:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointmentsearch/li_Booked")): Object: 'Object Repository/resourceappointmentsearch/li_Booked' is clicked on
+
+2019-07-22 13:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointmentsearch/li_Booked' is clicked on
+
+2019-07-22 13:20:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 13:20:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/resourceappointmentsearch/img")): Object: 'Object Repository/resourceappointmentsearch/img' is clicked on
+
+2019-07-22 13:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/resourceappointmentsearch/img' is clicked on
+
+2019-07-22 13:20:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 13:20:53 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/patientrecall" classname="Test Cases/patientrecall" status="FAILED">
+         <failure type="FAILED" message="Test Cases/patientrecall FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'remark' of object 'Object Repository/patientrecall/textarea_Remarks_appoint_purpose'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at patientrecall.run(patientrecall:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563786885679.run(TempTestSuite1563786885679.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-22 13:20:53 - [TEST_CASE][FAILED] - Test Cases/patientrecall: Test Cases/patientrecall FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'remark' of object 'Object Repository/patientrecall/textarea_Remarks_appoint_purpose'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at patientrecall.run(patientrecall:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563786885679.run(TempTestSuite1563786885679.groovy:35)
+
+
+2019-07-22 13:20:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/patientrecall/span_Front Desk")): Object: 'Object Repository/patientrecall/span_Front Desk' is clicked on
+
+2019-07-22 13:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/patientrecall/span_Front Desk' is clicked on
+
+2019-07-22 13:20:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:20:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/patientrecall/span_Appointment")): Object: 'Object Repository/patientrecall/span_Appointment' is clicked on
+
+2019-07-22 13:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/patientrecall/span_Appointment' is clicked on
+
+2019-07-22 13:20:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:21:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:21:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/patientrecall/span_Patient Recall")): Object: 'Object Repository/patientrecall/span_Patient Recall' is clicked on
+
+2019-07-22 13:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/patientrecall/span_Patient Recall' is clicked on
+
+2019-07-22 13:21:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:21:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:21:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/patientrecall/input_Action_op_number"), "DMC01-000043"): Text 'DMC01-000043' is set on object 'Object Repository/patientrecall/input_Action_op_number'
+
+2019-07-22 13:21:05 - [MESSAGE][PASSED] - Text 'DMC01-000043' is set on object 'Object Repository/patientrecall/input_Action_op_number'
+
+2019-07-22 13:21:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:21:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:21:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/resourceappointmentsearch/input_Action_op_number"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_op_number'
+
+2019-07-22 13:21:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/resourceappointmentsearch/input_Action_op_number'
+
+2019-07-22 13:21:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:21:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:21:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/patientrecall/img")): Object: 'Object Repository/patientrecall/img' is clicked on
+
+2019-07-22 13:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/patientrecall/img' is clicked on
+
+2019-07-22 13:21:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:21:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:21:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/patientrecall/input_Date_appoint_date"), "02-12-2019"): Text '02-12-2019' is set on object 'Object Repository/patientrecall/input_Date_appoint_date'
+
+2019-07-22 13:21:14 - [MESSAGE][PASSED] - Text '02-12-2019' is set on object 'Object Repository/patientrecall/input_Date_appoint_date'
+
+2019-07-22 13:21:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:21:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:21:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/patientrecall/input_Date_appoint_date"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/patientrecall/input_Date_appoint_date'
+
+2019-07-22 13:21:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/patientrecall/input_Date_appoint_date'
+
+2019-07-22 13:21:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:21:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:21:21 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-07-22 13:21:21 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-07-22 13:21:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:21:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:21:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/patientrecall/div_100 PM")): Object: 'Object Repository/patientrecall/div_100 PM' is clicked on
+
+2019-07-22 13:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/patientrecall/div_100 PM' is clicked on
+
+2019-07-22 13:21:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 13:21:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 13:21:27 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/patientrecall/textarea_Remarks_appoint_purpose"), "remark"): setText(findTestObject("Object Repository/patientrecall/textarea_Remarks_appoint_purpose"), "remark") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'remark' of object 'Object Repository/patientrecall/textarea_Remarks_appoint_purpose'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at patientrecall.run(patientrecall:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563786885679.run(TempTestSuite1563786885679.groovy:35)
+
+
+2019-07-22 13:21:52 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-07-22 13:21:52 - [MESSAGE][FAILED] - Unable to set text 'remark' of object 'Object Repository/patientrecall/textarea_Remarks_appoint_purpose'
+
+2019-07-22 13:21:52 - [MESSAGE][FAILED] - setText(findTestObject("Object Repository/patientrecall/textarea_Remarks_appoint_purpose"), "remark") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'remark' of object 'Object Repository/patientrecall/textarea_Remarks_appoint_purpose'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at patientrecall.run(patientrecall:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563786885679.run(TempTestSuite1563786885679.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-22 13:20:53 - [TEST_CASE][FAILED] - Test Cases/patientrecall: Test Cases/patientrecall FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'remark' of object 'Object Repository/patientrecall/textarea_Remarks_appoint_purpose'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at patientrecall.run(patientrecall:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563786885679.run(TempTestSuite1563786885679.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-22 13:14:47 - [TEST_SUITE][INCOMPLETE] - SanityTestSuite: null]]></system-out>
+      <system-err><![CDATA[2019-07-22 13:14:47 - [TEST_SUITE][INCOMPLETE] - SanityTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

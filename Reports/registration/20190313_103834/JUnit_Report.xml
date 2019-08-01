@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="registration" time="51" tests="1" failures="0" errors="0">
+   <testsuite name="registration" tests="1" failures="0" errors="0" time="51" timestamp="2019-03-13 10:38:41" hostname="DELL - DESKTOP-6QK8RF8" id="Test Suites/registration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\katalon\\damasproject\\Reports\\registration\\20190313_103834"/>
+         <property name="logFiles" value="E:\\katalon\\damasproject\\Reports\\registration\\20190313_103834\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-6QK8RF8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="852f2cba-cfb4-4365-98f4-17f147580452"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/cashregistration" classname="Test Cases/cashregistration" status="PASSED">
+         <system-out><![CDATA[2019-03-13 10:38:42 - [TEST_CASE][PASSED] - Test Cases/cashregistration: Test Cases/cashregistration
+
+2019-03-13 10:38:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-13 10:38:42 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-13 10:38:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-13 10:38:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-13 10:38:50 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8090/eclinic/"): Navigate to 'http://localhost:8090/eclinic/' successfully
+
+2019-03-13 10:38:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8090/eclinic/' successfully
+
+2019-03-13 10:38:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-13 10:38:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-13 10:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_name"), username): Text 'admin' is set on object 'Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_name'
+
+2019-03-13 10:38:58 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_name'
+
+2019-03-13 10:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_password"), password): Text '12345' is set on object 'Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_password'
+
+2019-03-13 10:38:58 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/cashregister/Page_eClinic/input_MEDAS HIS_user_password'
+
+2019-03-13 10:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinic/a_Log In")): Object: 'Object Repository/cashregister/Page_eClinic/a_Log In' is clicked on
+
+2019-03-13 10:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinic/a_Log In' is clicked on
+
+2019-03-13 10:39:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Damas Medical Center")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Damas Medical Center' is clicked on
+
+2019-03-13 10:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Damas Medical Center' is clicked on
+
+2019-03-13 10:39:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/li_Damas Medical Center")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_Damas Medical Center' is clicked on
+
+2019-03-13 10:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_Damas Medical Center' is clicked on
+
+2019-03-13 10:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input_English_go")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_English_go' is clicked on
+
+2019-03-13 10:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_English_go' is clicked on
+
+2019-03-13 10:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Front Desk")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Front Desk' is clicked on
+
+2019-03-13 10:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Front Desk' is clicked on
+
+2019-03-13 10:39:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 10:39:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 10:39:07 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/span_Registration")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Registration' is clicked on
+
+2019-03-13 10:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Registration' is clicked on
+
+2019-03-13 10:39:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 10:39:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 10:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_No")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_No' is clicked on
+
+2019-03-13 10:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_No' is clicked on
+
+2019-03-13 10:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/li_No")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_No' is clicked on
+
+2019-03-13 10:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_No' is clicked on
+
+2019-03-13 10:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Consultation")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Consultation' is clicked on
+
+2019-03-13 10:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Consultation' is clicked on
+
+2019-03-13 10:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/li_Consultation")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_Consultation' is clicked on
+
+2019-03-13 10:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_Consultation' is clicked on
+
+2019-03-13 10:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/a_No")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/a_No' is clicked on
+
+2019-03-13 10:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/a_No' is clicked on
+
+2019-03-13 10:39:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input__patient_name"), patientname): Text '1Auto-1' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__patient_name'
+
+2019-03-13 10:39:14 - [MESSAGE][PASSED] - Text '1Auto-1' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__patient_name'
+
+2019-03-13 10:39:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input__date_of_birth"), "11111985"): Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__date_of_birth'
+
+2019-03-13 10:39:14 - [MESSAGE][PASSED] - Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__date_of_birth'
+
+2019-03-13 10:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/td_SelectMaleFemale")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/td_SelectMaleFemale' is clicked on
+
+2019-03-13 10:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/td_SelectMaleFemale' is clicked on
+
+2019-03-13 10:39:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectMaleFemale"), "Male", true): All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectMaleFemale'  using regular expression
+
+2019-03-13 10:39:15 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectMaleFemale'  using regular expression
+
+2019-03-13 10:39:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectLocalResidentVisitor"), "resident", true): All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectLocalResidentVisitor'  using regular expression
+
+2019-03-13 10:39:15 - [MESSAGE][PASSED] - All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectLocalResidentVisitor'  using regular expression
+
+2019-03-13 10:39:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/select_9715095896659"), "97155", true): All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_9715095896659'  using regular expression
+
+2019-03-13 10:39:16 - [MESSAGE][PASSED] - All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_9715095896659'  using regular expression
+
+2019-03-13 10:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input__mobile"), mobile): Text '5698023547' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__mobile'
+
+2019-03-13 10:39:16 - [MESSAGE][PASSED] - Text '5698023547' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__mobile'
+
+2019-03-13 10:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_97150")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_97150' is clicked on
+
+2019-03-13 10:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_97150' is clicked on
+
+2019-03-13 10:39:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/li_97154")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_97154' is clicked on
+
+2019-03-13 10:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_97154' is clicked on
+
+2019-03-13 10:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input_Mobile 2_extra_no"), "5841201214"): Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Mobile 2_extra_no'
+
+2019-03-13 10:39:17 - [MESSAGE][PASSED] - Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Mobile 2_extra_no'
+
+2019-03-13 10:39:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option' is clicked on
+
+2019-03-13 10:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select an Option' is clicked on
+
+2019-03-13 10:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/li_AJMAN")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_AJMAN' is clicked on
+
+2019-03-13 10:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_AJMAN' is clicked on
+
+2019-03-13 10:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input_Email_patient_email"), "we@qq.com"): Text 'we@qq.com' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Email_patient_email'
+
+2019-03-13 10:39:18 - [MESSAGE][PASSED] - Text 'we@qq.com' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Email_patient_email'
+
+2019-03-13 10:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input_concat(Father  s Name)_father_name"), "dad"): Text 'dad' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_concat(Father  s Name)_father_name'
+
+2019-03-13 10:39:18 - [MESSAGE][PASSED] - Text 'dad' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_concat(Father  s Name)_father_name'
+
+2019-03-13 10:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input_Designation_designation"), "qa"): Text 'qa' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Designation_designation'
+
+2019-03-13 10:39:18 - [MESSAGE][PASSED] - Text 'qa' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Designation_designation'
+
+2019-03-13 10:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select' is clicked on
+
+2019-03-13 10:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Select' is clicked on
+
+2019-03-13 10:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/li_Newspaper")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_Newspaper' is clicked on
+
+2019-03-13 10:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_Newspaper' is clicked on
+
+2019-03-13 10:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input_website_find_source"), "source tested"): Text 'source tested' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_website_find_source'
+
+2019-03-13 10:39:19 - [MESSAGE][PASSED] - Text 'source tested' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_website_find_source'
+
+2019-03-13 10:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input_Emergency Contact Person_emerg_contact"), "4578124512"): Text '4578124512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Emergency Contact Person_emerg_contact'
+
+2019-03-13 10:39:19 - [MESSAGE][PASSED] - Text '4578124512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Emergency Contact Person_emerg_contact'
+
+2019-03-13 10:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cashregister/Page_eClinicUserAdministrator/input_Relation with Patient_father_name"), "fath"): Text 'fath' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Relation with Patient_father_name'
+
+2019-03-13 10:39:19 - [MESSAGE][PASSED] - Text 'fath' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Relation with Patient_father_name'
+
+2019-03-13 10:39:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/select_SelectDental"), "7", false): All options with value '7' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectDental' 
+
+2019-03-13 10:39:19 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectDental' 
+
+2019-03-13 10:39:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/select_Select Dr. Huda Shaheen"), "8", false): All options with value '8' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_Select Dr. Huda Shaheen' 
+
+2019-03-13 10:39:20 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_Select Dr. Huda Shaheen' 
+
+2019-03-13 10:39:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/select_SelectAfghanistan"), "2", false): All options with value '2' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectAfghanistan' 
+
+2019-03-13 10:39:20 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectAfghanistan' 
+
+2019-03-13 10:39:20 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/input__emirates_id"), residenceid, CONTINUE_ON_FAILURE): Text '201-3201-7820214-6' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__emirates_id'
+
+2019-03-13 10:39:20 - [MESSAGE][PASSED] - Text '201-3201-7820214-6' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__emirates_id'
+
+2019-03-13 10:39:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/select_PassportGCC IDDriving License"), "3", false): All options with value '3' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_PassportGCC IDDriving License' 
+
+2019-03-13 10:39:20 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_PassportGCC IDDriving License' 
+
+2019-03-13 10:39:20 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/input_Other Identification ID_passport_no"), "230232421"): Text '230232421' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Other Identification ID_passport_no'
+
+2019-03-13 10:39:21 - [MESSAGE][PASSED] - Text '230232421' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Other Identification ID_passport_no'
+
+2019-03-13 10:39:21 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/span_02")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_02' is clicked on
+
+2019-03-13 10:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_02' is clicked on
+
+2019-03-13 10:39:21 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/li_03")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_03' is clicked on
+
+2019-03-13 10:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/li_03' is clicked on
+
+2019-03-13 10:39:21 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/input_Telephone_telephone"), "231789512"): Text '231789512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Telephone_telephone'
+
+2019-03-13 10:39:21 - [MESSAGE][PASSED] - Text '231789512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Telephone_telephone'
+
+2019-03-13 10:39:21 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/input_Postal Code_po_box"), "235687451"): Text '235687451' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Postal Code_po_box'
+
+2019-03-13 10:39:21 - [MESSAGE][PASSED] - Text '235687451' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Postal Code_po_box'
+
+2019-03-13 10:39:21 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/input_concat(Mother  s Name)_mother_name"), "mom"): Text 'mom' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_concat(Mother  s Name)_mother_name'
+
+2019-03-13 10:39:22 - [MESSAGE][PASSED] - Text 'mom' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_concat(Mother  s Name)_mother_name'
+
+2019-03-13 10:39:22 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/input_Emergency Contact No_emerg_contact_no"), "125658748"): Text '125658748' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Emergency Contact No_emerg_contact_no'
+
+2019-03-13 10:39:22 - [MESSAGE][PASSED] - Text '125658748' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/input_Emergency Contact No_emerg_contact_no'
+
+2019-03-13 10:39:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/select_SelectNormalRecruitment Pre-Employment"), "Normal", false): All options with value 'Normal' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectNormalRecruitment Pre-Employment' 
+
+2019-03-13 10:39:22 - [MESSAGE][PASSED] - All options with value 'Normal' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/select_SelectNormalRecruitment Pre-Employment' 
+
+2019-03-13 10:39:22 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/input__savebut")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__savebut' is clicked on
+
+2019-03-13 10:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/input__savebut' is clicked on
+
+2019-03-13 10:39:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-13 10:39:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-13 10:39:29 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/span_Registration List")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Registration List' is clicked on
+
+2019-03-13 10:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/span_Registration List' is clicked on
+
+2019-03-13 10:39:30 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/img")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/img' is clicked on
+
+2019-03-13 10:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/img' is clicked on
+
+2019-03-13 10:39:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-13 10:39:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-13 10:38:41 - [TEST_SUITE][PASSED] - registration: Test Cases/cashregistration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SanityTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8be41796-152e-4a68-9d5d-0603ed00aa3e</testSuiteGuid>
+   <testCaseLink>
+      <guid>eca3c257-d625-4901-9b9e-bfdad508313d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/userlogin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b77b9c50-b237-453c-b9dd-bf3fef58464f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/registrationlists</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49fcb264-736e-4e5a-9909-2cc7bae422ef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/cashregistration</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>318bf6a4-c526-4973-a1a3-b9ea63e064d8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/registrations</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>31d9402f-bf6b-447c-ac97-0bbdf3adb928</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>337b97f6-f9ec-4d78-b980-053ad5252de3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>318bf6a4-c526-4973-a1a3-b9ea63e064d8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>patientname</value>
+         <variableId>f62f4830-b867-4c11-a0dd-af01ea666315</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>318bf6a4-c526-4973-a1a3-b9ea63e064d8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mobile</value>
+         <variableId>09cc1594-706d-4419-9b09-70d3fa7e9918</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>318bf6a4-c526-4973-a1a3-b9ea63e064d8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>residenceid</value>
+         <variableId>f6276eff-e9e9-413d-82ec-603fa03f9a49</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3dc426ac-4cc5-4470-a588-b123ba99019d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/revisitpatient</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>35fe9ba7-a3ca-4837-a504-d5de1e9f0a5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/insregistration</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d30e7ad7-f8a3-4f1e-8eae-ca738e64a073</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/insregistration</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f627569c-3d29-4295-b58c-b3f2b97fcda5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f7d255d3-b8ef-4419-9da1-262770268d86</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d30e7ad7-f8a3-4f1e-8eae-ca738e64a073</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>patientname</value>
+         <variableId>954aeb27-669c-4d15-b51c-a39d65627425</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d30e7ad7-f8a3-4f1e-8eae-ca738e64a073</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mobile</value>
+         <variableId>f12eab2d-25e0-405e-a0bf-c3b93cd004f5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d30e7ad7-f8a3-4f1e-8eae-ca738e64a073</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>residenceid</value>
+         <variableId>6edb8bfc-41b5-4228-9f93-1e9aaee55382</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e249415d-9363-48df-b656-d82ec07b794f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/editconsultation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d1a68581-d6c4-4253-9efd-0ff549c56033</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/resourceappointment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2d2d7bc-d87c-441e-a067-6f02a75249d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/resourceappointmentsearch</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>30c4ffe2-bd42-41bb-8b1d-0d7ba312ff11</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/patientrecall</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

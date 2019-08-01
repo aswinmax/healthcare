@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="insregistration" time="51" tests="0" failures="1" errors="0">
+   <testsuite name="insregistration" tests="0" failures="1" errors="0" time="51" timestamp="2019-07-22 16:16:25" hostname="DELL - DESKTOP-6QK8RF8" id="Test Suites/insregistration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\katalon\\damasproject\\Reports\\insregistration\\20190722_161619"/>
+         <property name="logFiles" value="E:\\katalon\\damasproject\\Reports\\insregistration\\20190722_161619\\execution0.log"/>
+         <property name="attachments" value="E:\\katalon\\damasproject\\Reports\\insregistration\\20190722_161619\\1563797834729.png"/>
+         <property name="hostName" value="DELL - DESKTOP-6QK8RF8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Firefox 67.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="b8857f6c-a19f-4a90-aa66-c1b5b7ee62e0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/insregistration" classname="Test Cases/insregistration" status="FAILED">
+         <failure type="FAILED" message="Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at insregistration.run(insregistration:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563797784158.run(TempTestSuite1563797784158.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-22 16:16:25 - [TEST_CASE][FAILED] - Test Cases/insregistration: Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at insregistration.run(insregistration:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563797784158.run(TempTestSuite1563797784158.groovy:35)
+
+
+2019-07-22 16:16:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-22 16:16:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-07-22 16:16:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-22 16:16:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-22 16:16:33 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8090/eclinic/index.jsp"): Navigate to 'http://localhost:8090/eclinic/index.jsp' successfully
+
+2019-07-22 16:16:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8090/eclinic/index.jsp' successfully
+
+2019-07-22 16:16:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 16:16:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 16:16:40 - [TEST_STEP][PASSED] - setText(findTestObject("Components/logins/input_MEDAS HIS_user_name"), username): Text 'Admin' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_name'
+
+2019-07-22 16:16:40 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_name'
+
+2019-07-22 16:16:40 - [TEST_STEP][PASSED] - setText(findTestObject("Components/logins/input_MEDAS HIS_user_password"), password): Text '12345' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_password'
+
+2019-07-22 16:16:40 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_password'
+
+2019-07-22 16:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/login")): Object: 'Object Repository/Components/Buttons/login' is clicked on
+
+2019-07-22 16:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/login' is clicked on
+
+2019-07-22 16:16:43 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/officeselection")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/officeselection' is clicked on
+
+2019-07-22 16:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/officeselection' is clicked on
+
+2019-07-22 16:16:44 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/selectoffice")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/selectoffice' is clicked on
+
+2019-07-22 16:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/selectoffice' is clicked on
+
+2019-07-22 16:16:44 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/go")): Object: 'Object Repository/Components/Buttons/go' is clicked on
+
+2019-07-22 16:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/go' is clicked on
+
+2019-07-22 16:16:46 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Frontdesktab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-22 16:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-22 16:16:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 16:16:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 16:16:59 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/registrationTab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-22 16:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-22 16:17:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 16:17:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 16:17:04 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-22 16:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-22 16:17:04 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-22 16:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-22 16:17:04 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-22 16:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-22 16:17:05 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-22 16:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-22 16:17:05 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/AlreadyGenerated")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-22 16:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-22 16:17:05 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/PatientName"), patientname): Text '4Auto_034' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-22 16:17:05 - [MESSAGE][PASSED] - Text '4Auto_034' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-22 16:17:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:17:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:17:07 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/DOB"), "11111985"): Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-22 16:17:07 - [MESSAGE][PASSED] - Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-22 16:17:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:17:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:17:09 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-22 16:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-22 16:17:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:17:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:17:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderSelected"), "Male", true): All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-22 16:17:12 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-22 16:17:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:17:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:17:14 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/VisaTyWebUI.delay(2)peSelected"), "resident", true): selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/VisaTyWebUI.delay(2)peSelected"), "resident", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at insregistration.run(insregistration:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563797784158.run(TempTestSuite1563797784158.groovy:35)
+
+
+2019-07-22 16:17:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/cashregister/Page_eClinicUserAdministrator/VisaTyWebUI.delay(2)peSelected' does not exist
+
+2019-07-22 16:17:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-07-22 16:17:14 - [MESSAGE][FAILED] - Unable to select option by value  using regular expression
+[[ATTACHMENT|E:\\katalon\\damasproject\\Reports\\insregistration\\20190722_161619\\1563797834729.png]]
+
+2019-07-22 16:17:14 - [MESSAGE][FAILED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/VisaTyWebUI.delay(2)peSelected"), "resident", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at insregistration.run(insregistration:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563797784158.run(TempTestSuite1563797784158.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-22 16:16:25 - [TEST_CASE][FAILED] - Test Cases/insregistration: Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at insregistration.run(insregistration:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563797784158.run(TempTestSuite1563797784158.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-22 16:16:25 - [TEST_SUITE][FAILED] - insregistration: Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at insregistration.run(insregistration:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563797784158.run(TempTestSuite1563797784158.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-22 16:16:25 - [TEST_SUITE][FAILED] - insregistration: Test Cases/insregistration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value  using regular expression
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at insregistration.run(insregistration:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563797784158.run(TempTestSuite1563797784158.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

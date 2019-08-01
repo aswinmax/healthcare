@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>insregistration</name>
+   <tag>functionaltesting</tag>
+   <comment></comment>
+   <testCaseGuid>72829122-2ef2-4d14-a67f-80477b8a9610</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f627569c-3d29-4295-b58c-b3f2b97fcda5</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f7d255d3-b8ef-4419-9da1-262770268d86</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>954aeb27-669c-4d15-b51c-a39d65627425</id>
+      <masked>false</masked>
+      <name>patientname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f12eab2d-25e0-405e-a0bf-c3b93cd004f5</id>
+      <masked>false</masked>
+      <name>mobile</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6edb8bfc-41b5-4228-9f93-1e9aaee55382</id>
+      <masked>false</masked>
+      <name>residenceid</name>
+   </variable>
+</TestCaseEntity>

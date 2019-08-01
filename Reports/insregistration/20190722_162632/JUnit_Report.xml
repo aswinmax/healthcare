@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="insregistration" time="177" tests="1" failures="0" errors="0">
+   <testsuite name="insregistration" tests="1" failures="0" errors="0" time="177" timestamp="2019-07-22 16:26:39" hostname="DELL - DESKTOP-6QK8RF8" id="Test Suites/insregistration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\katalon\\damasproject\\Reports\\insregistration\\20190722_162632"/>
+         <property name="logFiles" value="E:\\katalon\\damasproject\\Reports\\insregistration\\20190722_162632\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-6QK8RF8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Firefox 67.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a54d87f1-e0e3-4beb-bf3a-04f2dee9390e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/insregistration" classname="Test Cases/insregistration" status="PASSED">
+         <system-out><![CDATA[2019-07-22 16:26:39 - [TEST_CASE][PASSED] - Test Cases/insregistration: Test Cases/insregistration
+
+2019-07-22 16:26:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-22 16:26:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-07-22 16:26:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-22 16:27:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-22 16:27:09 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8090/eclinic/index.jsp"): Navigate to 'http://localhost:8090/eclinic/index.jsp' successfully
+
+2019-07-22 16:27:17 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8090/eclinic/index.jsp' successfully
+
+2019-07-22 16:27:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 16:27:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 16:27:22 - [TEST_STEP][PASSED] - setText(findTestObject("Components/logins/input_MEDAS HIS_user_name"), username): Text 'Admin' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_name'
+
+2019-07-22 16:27:22 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_name'
+
+2019-07-22 16:27:22 - [TEST_STEP][PASSED] - setText(findTestObject("Components/logins/input_MEDAS HIS_user_password"), password): Text '12345' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_password'
+
+2019-07-22 16:27:22 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Components/logins/input_MEDAS HIS_user_password'
+
+2019-07-22 16:27:22 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/login")): Object: 'Object Repository/Components/Buttons/login' is clicked on
+
+2019-07-22 16:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/login' is clicked on
+
+2019-07-22 16:27:24 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/officeselection")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/officeselection' is clicked on
+
+2019-07-22 16:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/officeselection' is clicked on
+
+2019-07-22 16:27:24 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/selectoffice")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/selectoffice' is clicked on
+
+2019-07-22 16:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/selectoffice' is clicked on
+
+2019-07-22 16:27:24 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/go")): Object: 'Object Repository/Components/Buttons/go' is clicked on
+
+2019-07-22 16:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/go' is clicked on
+
+2019-07-22 16:27:26 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Frontdesktab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-22 16:27:28 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Frontdesktab' is clicked on
+
+2019-07-22 16:27:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 16:27:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 16:27:31 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/registrationTab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-22 16:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/registrationTab' is clicked on
+
+2019-07-22 16:27:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 16:27:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 16:27:35 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-22 16:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelectionClick' is clicked on
+
+2019-07-22 16:27:36 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ReferralSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-22 16:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ReferralSelected' is clicked on
+
+2019-07-22 16:27:36 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-22 16:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelectionClick' is clicked on
+
+2019-07-22 16:27:36 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/ConsultationSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-22 16:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/ConsultationSelected' is clicked on
+
+2019-07-22 16:27:37 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/AlreadyGenerated")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-22 16:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/AlreadyGenerated' is clicked on
+
+2019-07-22 16:27:37 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/PatientName"), patientname): Text '4Auto_034' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-22 16:27:37 - [MESSAGE][PASSED] - Text '4Auto_034' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PatientName'
+
+2019-07-22 16:27:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:27:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:27:39 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/DOB"), "11111985"): Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-22 16:27:39 - [MESSAGE][PASSED] - Text '11111985' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DOB'
+
+2019-07-22 16:27:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:27:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:27:41 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-22 16:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderClick' is clicked on
+
+2019-07-22 16:27:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:27:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:27:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/GenderSelected"), "Male", true): All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-22 16:27:44 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/GenderSelected'  using regular expression
+
+2019-07-22 16:27:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:27:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:27:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/VisaTypeSelected"), "resident", true): All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/VisaTypeSelected'  using regular expression
+
+2019-07-22 16:27:46 - [MESSAGE][PASSED] - All options with value 'resident' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/VisaTypeSelected'  using regular expression
+
+2019-07-22 16:27:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:27:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:27:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile1Ext"), "97155", true): All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile1Ext'  using regular expression
+
+2019-07-22 16:27:49 - [MESSAGE][PASSED] - All options with value '97155' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile1Ext'  using regular expression
+
+2019-07-22 16:27:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:27:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:27:51 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/MobilenumInserted"), mobile): Text '505058747177' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MobilenumInserted'
+
+2019-07-22 16:27:51 - [MESSAGE][PASSED] - Text '505058747177' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MobilenumInserted'
+
+2019-07-22 16:27:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:27:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:27:53 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick' is clicked on
+
+2019-07-22 16:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtClick' is clicked on
+
+2019-07-22 16:27:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:27:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:27:55 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected' is clicked on
+
+2019-07-22 16:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2ExtSelected' is clicked on
+
+2019-07-22 16:27:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:27:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:27:57 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/Mobile2Inserted"), "5841201214"): Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2Inserted'
+
+2019-07-22 16:27:58 - [MESSAGE][PASSED] - Text '5841201214' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/Mobile2Inserted'
+
+2019-07-22 16:27:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:00 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/CityClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick' is clicked on
+
+2019-07-22 16:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CityClick' is clicked on
+
+2019-07-22 16:28:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:02 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/CitySelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CitySelected' is clicked on
+
+2019-07-22 16:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/CitySelected' is clicked on
+
+2019-07-22 16:28:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:04 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmailInserted"), "we@qq.com"): Text 'we@qq.com' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmailInserted'
+
+2019-07-22 16:28:04 - [MESSAGE][PASSED] - Text 'we@qq.com' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmailInserted'
+
+2019-07-22 16:28:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:06 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/FathernameInserted"), "dad"): Text 'dad' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/FathernameInserted'
+
+2019-07-22 16:28:06 - [MESSAGE][PASSED] - Text 'dad' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/FathernameInserted'
+
+2019-07-22 16:28:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:08 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/DesignationInserted"), "qa"): Text 'qa' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DesignationInserted'
+
+2019-07-22 16:28:08 - [MESSAGE][PASSED] - Text 'qa' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DesignationInserted'
+
+2019-07-22 16:28:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:10 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/SourceClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceClick' is clicked on
+
+2019-07-22 16:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceClick' is clicked on
+
+2019-07-22 16:28:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:13 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/SourceSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceSelected' is clicked on
+
+2019-07-22 16:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceSelected' is clicked on
+
+2019-07-22 16:28:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:15 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/SourceInserted"), "source tested"): Text 'source tested' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceInserted'
+
+2019-07-22 16:28:15 - [MESSAGE][PASSED] - Text 'source tested' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/SourceInserted'
+
+2019-07-22 16:28:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:17 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmergencyNameInserted"), "4578124512"): Text '4578124512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNameInserted'
+
+2019-07-22 16:28:17 - [MESSAGE][PASSED] - Text '4578124512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNameInserted'
+
+2019-07-22 16:28:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:19 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/RelationInserted"), "fath"): Text 'fath' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RelationInserted'
+
+2019-07-22 16:28:19 - [MESSAGE][PASSED] - Text 'fath' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RelationInserted'
+
+2019-07-22 16:28:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/DepartmentSelected"), "6", false): All options with value '6' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DepartmentSelected' 
+
+2019-07-22 16:28:21 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DepartmentSelected' 
+
+2019-07-22 16:28:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/DoctorSelected"), "3", false): All options with value '3' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DoctorSelected' 
+
+2019-07-22 16:28:24 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/DoctorSelected' 
+
+2019-07-22 16:28:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/NationalitySelected"), "2", false): All options with value '2' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/NationalitySelected' 
+
+2019-07-22 16:28:26 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/NationalitySelected' 
+
+2019-07-22 16:28:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:28 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmiratesIDInserted"), residenceid, CONTINUE_ON_FAILURE): Text '111-1111-1111111-1' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmiratesIDInserted'
+
+2019-07-22 16:28:28 - [MESSAGE][PASSED] - Text '111-1111-1111111-1' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmiratesIDInserted'
+
+2019-07-22 16:28:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/OtherIDClick"), "3", false): All options with value '3' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDClick' 
+
+2019-07-22 16:28:31 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDClick' 
+
+2019-07-22 16:28:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:33 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/OtherIDInserted"), "230232421"): Text '230232421' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDInserted'
+
+2019-07-22 16:28:33 - [MESSAGE][PASSED] - Text '230232421' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/OtherIDInserted'
+
+2019-07-22 16:28:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:35 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/TelephoneClick")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneClick' is clicked on
+
+2019-07-22 16:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneClick' is clicked on
+
+2019-07-22 16:28:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:37 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/TelephoneSelected")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneSelected' is clicked on
+
+2019-07-22 16:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneSelected' is clicked on
+
+2019-07-22 16:28:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:39 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/TelephoneInserted"), "231789512"): Text '231789512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneInserted'
+
+2019-07-22 16:28:39 - [MESSAGE][PASSED] - Text '231789512' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/TelephoneInserted'
+
+2019-07-22 16:28:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:41 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/PostalCodeInserted"), "235687451"): Text '235687451' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PostalCodeInserted'
+
+2019-07-22 16:28:42 - [MESSAGE][PASSED] - Text '235687451' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/PostalCodeInserted'
+
+2019-07-22 16:28:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:44 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/MothernameInserted"), "mom"): Text 'mom' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MothernameInserted'
+
+2019-07-22 16:28:44 - [MESSAGE][PASSED] - Text 'mom' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/MothernameInserted'
+
+2019-07-22 16:28:44 - [TEST_STEP][PASSED] - setText(findTestObject("cashregister/Page_eClinicUserAdministrator/EmergencyNumInserted"), "125658748"): Text '125658748' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNumInserted'
+
+2019-07-22 16:28:44 - [MESSAGE][PASSED] - Text '125658748' is set on object 'Object Repository/cashregister/Page_eClinicUserAdministrator/EmergencyNumInserted'
+
+2019-07-22 16:28:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("cashregister/Page_eClinicUserAdministrator/RegistrationtypeSelected"), "Normal", false): All options with value 'Normal' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationtypeSelected' 
+
+2019-07-22 16:28:46 - [MESSAGE][PASSED] - All options with value 'Normal' are selected in object 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationtypeSelected' 
+
+2019-07-22 16:28:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 16:28:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 16:28:49 - [TEST_STEP][PASSED] - click(findTestObject("insurance/span_No")): Object: 'Object Repository/insurance/span_No' is clicked on
+
+2019-07-22 16:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/insurance/span_No' is clicked on
+
+2019-07-22 16:28:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:51 - [TEST_STEP][PASSED] - click(findTestObject("insurance/li_Yes")): Object: 'Object Repository/insurance/li_Yes' is clicked on
+
+2019-07-22 16:28:52 - [MESSAGE][PASSED] - Object: 'Object Repository/insurance/li_Yes' is clicked on
+
+2019-07-22 16:28:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 16:28:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 16:28:55 - [TEST_STEP][PASSED] - click(findTestObject("insregistration/span_----Select----")): Object: 'Object Repository/insregistration/span_----Select----' is clicked on
+
+2019-07-22 16:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/insregistration/span_----Select----' is clicked on
+
+2019-07-22 16:28:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:28:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:28:57 - [TEST_STEP][PASSED] - click(findTestObject("insurance/li_ALMADALLAH")): Object: 'Object Repository/insurance/li_ALMADALLAH' is clicked on
+
+2019-07-22 16:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/insurance/li_ALMADALLAH' is clicked on
+
+2019-07-22 16:28:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 16:29:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 16:29:01 - [TEST_STEP][PASSED] - click(findTestObject("insurance/Insurar_Span")): Object: 'Object Repository/insurance/Insurar_Span' is clicked on
+
+2019-07-22 16:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/insurance/Insurar_Span' is clicked on
+
+2019-07-22 16:29:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:29:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:29:03 - [TEST_STEP][PASSED] - click(findTestObject("insurance/li_AL MADALLAH")): Object: 'Object Repository/insurance/li_AL MADALLAH' is clicked on
+
+2019-07-22 16:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/insurance/li_AL MADALLAH' is clicked on
+
+2019-07-22 16:29:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 16:29:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 16:29:06 - [TEST_STEP][PASSED] - click(findTestObject("insurance/network_span")): Object: 'Object Repository/insurance/network_span' is clicked on
+
+2019-07-22 16:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/insurance/network_span' is clicked on
+
+2019-07-22 16:29:07 - [TEST_STEP][PASSED] - click(findTestObject("insurance/li_GN")): Object: 'Object Repository/insurance/li_GN' is clicked on
+
+2019-07-22 16:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/insurance/li_GN' is clicked on
+
+2019-07-22 16:29:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-22 16:29:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-22 16:29:10 - [TEST_STEP][PASSED] - setText(findTestObject("insurance/input__card_no"), "589564124"): Text '589564124' is set on object 'Object Repository/insurance/input__card_no'
+
+2019-07-22 16:29:10 - [MESSAGE][PASSED] - Text '589564124' is set on object 'Object Repository/insurance/input__card_no'
+
+2019-07-22 16:29:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:29:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:29:12 - [TEST_STEP][PASSED] - setText(findTestObject("insregistration/input_Cert No_cert_no"), "8956412"): Text '8956412' is set on object 'Object Repository/insregistration/input_Cert No_cert_no'
+
+2019-07-22 16:29:12 - [MESSAGE][PASSED] - Text '8956412' is set on object 'Object Repository/insregistration/input_Cert No_cert_no'
+
+2019-07-22 16:29:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:29:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:29:14 - [TEST_STEP][PASSED] - setText(findTestObject("insregistration/input_Dependents No"), "55"): Text '55' is set on object 'Object Repository/insregistration/input_Dependents No'
+
+2019-07-22 16:29:14 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/insregistration/input_Dependents No'
+
+2019-07-22 16:29:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:29:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:29:16 - [TEST_STEP][PASSED] - setText(findTestObject("insregistration/input_Card No_ex_card_no"), "1212121"): Text '1212121' is set on object 'Object Repository/insregistration/input_Card No_ex_card_no'
+
+2019-07-22 16:29:16 - [MESSAGE][PASSED] - Text '1212121' is set on object 'Object Repository/insregistration/input_Card No_ex_card_no'
+
+2019-07-22 16:29:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:29:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:29:18 - [TEST_STEP][PASSED] - setText(findTestObject("insregistration/input_Policy No_policy_number"), "2323232"): Text '2323232' is set on object 'Object Repository/insregistration/input_Policy No_policy_number'
+
+2019-07-22 16:29:18 - [MESSAGE][PASSED] - Text '2323232' is set on object 'Object Repository/insregistration/input_Policy No_policy_number'
+
+2019-07-22 16:29:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:29:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:29:20 - [TEST_STEP][PASSED] - setText(findTestObject("insregistration/input_Claim No_claim_no"), "313131"): Text '313131' is set on object 'Object Repository/insregistration/input_Claim No_claim_no'
+
+2019-07-22 16:29:20 - [MESSAGE][PASSED] - Text '313131' is set on object 'Object Repository/insregistration/input_Claim No_claim_no'
+
+2019-07-22 16:29:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-22 16:29:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-22 16:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/save")): Object: 'Object Repository/Components/Buttons/save' is clicked on
+
+2019-07-22 16:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/save' is clicked on
+
+2019-07-22 16:29:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-22 16:29:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-22 16:29:33 - [TEST_STEP][PASSED] - click(findTestObject("cashregister/Page_eClinicUserAdministrator/RegistrationlistTab")): Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationlistTab' is clicked on
+
+2019-07-22 16:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/cashregister/Page_eClinicUserAdministrator/RegistrationlistTab' is clicked on
+
+2019-07-22 16:29:34 - [TEST_STEP][PASSED] - click(findTestObject("Components/Buttons/logout")): Object: 'Object Repository/Components/Buttons/logout' is clicked on
+
+2019-07-22 16:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Components/Buttons/logout' is clicked on
+
+2019-07-22 16:29:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-22 16:29:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-22 16:26:39 - [TEST_SUITE][PASSED] - insregistration: Test Cases/insregistration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

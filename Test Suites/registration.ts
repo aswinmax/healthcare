@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>registration</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>51c8589e-fe9f-423f-8177-92cb4985c905</testSuiteGuid>
+   <testCaseLink>
+      <guid>f93ce4b6-a5a9-4b16-8ada-7743b2de4e28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/cashregistration</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5dd676c6-b2cc-4512-b353-6ca12ccd06c8</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/registrations</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>5dd676c6-b2cc-4512-b353-6ca12ccd06c8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>31d9402f-bf6b-447c-ac97-0bbdf3adb928</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5dd676c6-b2cc-4512-b353-6ca12ccd06c8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>337b97f6-f9ec-4d78-b980-053ad5252de3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5dd676c6-b2cc-4512-b353-6ca12ccd06c8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>patientname</value>
+         <variableId>f62f4830-b867-4c11-a0dd-af01ea666315</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5dd676c6-b2cc-4512-b353-6ca12ccd06c8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mobile</value>
+         <variableId>09cc1594-706d-4419-9b09-70d3fa7e9918</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5dd676c6-b2cc-4512-b353-6ca12ccd06c8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>residenceid</value>
+         <variableId>f6276eff-e9e9-413d-82ec-603fa03f9a49</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
